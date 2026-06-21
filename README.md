@@ -1,4 +1,4 @@
-# Hi, I'm Vishnu P 👋
+# Hi, I'm Vishnu P 
 
 ### AI Engineer · Generative AI · Agentic Systems
 

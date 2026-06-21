@@ -17,15 +17,13 @@ I build production-grade AI systems that actually ship — not demos, not wrappe
 ---
 
 ## 🛠️ Tech Stack
-
 | Category | Technologies |
 | :--- | :--- |
-| **AI & Core** | ![LangGraph](https://img.shields.io/badge/LangGraph-0052FF?style=flat-square&logo=dynamic&logoColor=white) ![LangChain](https://img.shields.io/badge/LangChain-1C3C3A?style=flat-square&logo=chainlink&logoColor=white) ![RAG](https://img.shields.io/badge/Agentic_AI-FF6F61?style=flat-square) ![MCP](https://img.shields.io/badge/MCP-Active-green?style=flat-square) |
+| **AI & Core** | ![LangGraph](https://img.shields.io/badge/LangGraph-0052FF?style=flat-square&logo=diagram-next&logoColor=white) ![Agentic AI](https://img.shields.io/badge/Agentic_AI-FF6F61?style=flat-square&logo=network-wired&logoColor=white) ![Prompt Engineering](https://img.shields.io/badge/Prompt_Engineering-1C3C3A?style=flat-square&logo=anthropic&logoColor=white) ![RAG](https://img.shields.io/badge/RAG_Pipelines-009688?style=flat-square&logo=database-search&logoColor=white) ![MCP](https://img.shields.io/badge/MCP-Active-green?style=flat-square&logo=anthropic&logoColor=white) |
 | **Languages** | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) |
 | **Frameworks** | ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB) ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white) ![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white) |
-| **Databases** | ![Neo4j](https://img.shields.io/badge/Neo4j-008CC1?style=flat-square&logo=neo4j&logoColor=white) ![ChromaDB](https://img.shields.io/badge/ChromaDB-0052FF?style=flat-square) ![Weaviate](https://img.shields.io/badge/Weaviate-1C3C3A?style=flat-square) ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white) |
-| **Tools & Cloud** | ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![AWS](https://img.shields.io/badge/AWS_Bedrock-232F3E?style=flat-square&logo=amazon-aws&logoColor=white) ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black) ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white) ![WebRTC](https://img.shields.io/badge/WebRTC-333333?style=flat-square&logo=webrtc&logoColor=white) |
-
+| **Databases** | ![Neo4j](https://img.shields.io/badge/Neo4j-008CC1?style=flat-square&logo=neo4j&logoColor=white) ![ChromaDB](https://img.shields.io/badge/ChromaDB-0052FF?style=flat-square&logo=square&logoColor=white) ![Weaviate](https://img.shields.io/badge/Weaviate-1C3C3A?style=flat-square&logo=square&logoColor=white) ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white) |
+| **Tools & Cloud** | ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![AWS Bedrock](https://img.shields.io/badge/AWS_Bedrock-232F3E?style=flat-square&logo=amazon-aws&logoColor=white) ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black) ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white) ![WebRTC](https://img.shields.io/badge/WebRTC-333333?style=flat-square&logo=webrtc&logoColor=white) |
 ---
 
 ## 🚀 Featured Projects

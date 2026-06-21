@@ -89,5 +89,3 @@ Tools         →  Docker · AWS Bedrock · Git · WebRTC · Firebase · Groq
 [![Email](https://img.shields.io/badge/Email-vishnup22102002@gmail.com-red?style=flat&logo=gmail)](mailto:vishnup22102002@gmail.com)
 
 ---
-
-*172 contributions in the last year. Building in public.*

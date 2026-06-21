@@ -17,6 +17,12 @@ I build production-grade AI systems that actually ship — not demos, not wrappe
 ---
 
 ## 🚀 Featured Projects
+### [LegalMind](https://github.com/vishnup102002/LegalMind) — WhatsApp Legal Advisory Bot
+> Python · LangGraph · Neo4j · RAG · WhatsApp API
+
+*(In Progress)* A production-grade legal aid assistant that translates colloquial regional voice notes into structured, legally grounded audio roadmaps and printable PDF notices. Built on a stateful LangGraph workflow using hybrid GraphRAG (Neo4j + Qdrant), Groq inference, and a token-level Citation Shield.
+
+---
 
 ### [Career-Pilot](https://github.com/vishnup102002/Career-Pilot) — Autonomous AI Job-Hunting Agent
 > Python · LangGraph · FastAPI · MCP · Docker · Groq
@@ -38,12 +44,7 @@ Multi-peer collaborative whiteboard with sub-50ms latency. A deterministic gestu
 
 ---
 
-### [LegalMind](https://github.com/vishnup102002/LegalMind) — WhatsApp Legal Advisory Bot
-> Python · LangGraph · Neo4j · RAG · WhatsApp API
 
-*(In Progress)* Agentic RAG system for legal advice via WhatsApp. Uses Neo4j graph database for relationship-aware legal knowledge retrieval and LangGraph for multi-step reasoning workflows.
-
----
 
 ### [Kadal Aayus](https://github.com/vishnup102002/kadal_aayus) — Sea Safety Mobile Application
 > Flutter · Firebase · Mapbox · FCM · Open-Meteo API

@@ -62,3 +62,27 @@ A cross-platform sea safety application featuring real-time GPS telemetry, an of
 ---
 
 ## 🛠️ Tech Stack
+
+AI & Core     →  LangGraph · LangChain · RAG · Prompt Engineering · MCP · Agentic AI
+Languages     →  Python · Java · TypeScript
+Frameworks    →  FastAPI · React · Node.js · Flutter
+Databases     →  MySQL · ChromaDB · Weaviate · Neo4j
+Tools         →  Docker · AWS Bedrock · Git · WebRTC · Firebase · Groq
+
+
+---
+
+## 📜 Certifications
+
+- IBM Generative AI & AI Agents Specialist — Coursera, 2026
+- AWS Generative AI and AI Agents Professional — Coursera, 2026
+- IBM Python for Data Science & Development — Coursera, 2026
+- Data Structures and Algorithms — NPTEL, IIT Kanpur, 2025
+
+---
+
+## 📬 Let's Connect
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-vishnup22102002-blue?style=flat&logo=linkedin)](https://linkedin.com/in/vishnup22102002)
+[![Portfolio](https://img.shields.io/badge/Portfolio-vishnup.vercel.app-black?style=flat&logo=vercel)](https://vishnup.vercel.app)
+[![Email](https://img.shields.io/badge/Email-vishnup22102002@gmail.com-red?style=flat&logo=gmail)](mailto:vishnup22102002@gmail.com)

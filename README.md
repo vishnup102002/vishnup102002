@@ -80,7 +80,8 @@ A cross-platform sea safety application featuring real-time GPS telemetry, an of
 ---
 
 ## 📬 Let's Connect
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-vishnup22102002-blue?style=flat&logo=linkedin)](https://linkedin.com/in/vishnup22102002)
-[![Portfolio](https://img.shields.io/badge/Portfolio-vishnup.vercel.app-black?style=flat&logo=vercel)](https://vishnup.vercel.app)
-[![Email](https://img.shields.io/badge/Email-vishnup22102002@gmail.com-red?style=flat&logo=gmail)](mailto:vishnup22102002@gmail.com)
+<p align="left">
+  <a href="https://linkedin.com/in/vishnup22102002"><img src="https://img.shields.io/badge/LinkedIn-vishnup22102002-blue?style=flat&logo=linkedin" alt="LinkedIn"></a>
+  <a href="https://vishnup.vercel.app"><img src="https://img.shields.io/badge/Portfolio-vishnup.vercel.app-black?style=flat&logo=vercel" alt="Portfolio"></a>
+  <a href="mailto:vishnup22102002@gmail.com"><img src="https://img.shields.io/badge/Email-vishnup22102002@gmail.com-red?style=flat&logo=gmail" alt="Email"></a>
+</p>

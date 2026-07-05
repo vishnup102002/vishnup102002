@@ -38,27 +38,29 @@ I build production-grade AI systems that actually ship — not demos, not wrappe
 
 ---
 
-## 🛠️ The Tech Stack (Core Assembly Tools)
+## 🛠️ Tech Stack
 
-### 💻 Languages & Environments
+**AI & Core Domains**
+![LangGraph](https://img.shields.io/badge/LangGraph-00C853?style=for-the-badge&amp;logo=langchain&amp;logoColor=white)
+![GraphRAG](https://img.shields.io/badge/GraphRAG-red?style=for-the-badge&amp;logo=neo4j&amp;logoColor=white)
+![LLM-Judge](https://img.shields.io/badge/LLM_Judge-blue?style=for-the-badge)
+![Model Context Protocol](https://img.shields.io/badge/MCP-Active-green?style=for-the-badge&amp;logo=anthropic&amp;logoColor=white)
+
+**Languages & Frameworks**
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&amp;logo=python&amp;logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&amp;logo=javascript&amp;logoColor=black)
+![FastAPI](https://img.shields.io/badge/FastAPI-05998B?style=for-the-badge&amp;logo=fastapi&amp;logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&amp;logo=typescript&amp;logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&amp;logo=openjdk&amp;logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&amp;logo=javascript&amp;logoColor=black)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&amp;logo=react&amp;logoColor=61DAFB)
 ![NodeJS](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&amp;logo=nodedotjs&amp;logoColor=white)
+![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&amp;logo=flutter&amp;logoColor=white)
 
-### 🧠 Agentic Orchestration & Databases
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3A?style=for-the-badge&amp;logoColor=white)
+**Infrastructure**
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&amp;logo=docker&amp;logoColor=white)
 ![Neo4j](https://img.shields.io/badge/Neo4j-008CC1?style=for-the-badge&amp;logo=neo4j&amp;logoColor=white)
 ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&amp;logo=firebase&amp;logoColor=black)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&amp;logo=docker&amp;logoColor=white)
-
-### ⚡ Backends & Web APIs
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&amp;logo=fastapi&amp;logoColor=white)
-![Socket.io](https://img.shields.io/badge/Socket.io-010101?style=for-the-badge&amp;logo=socketdotio&amp;logoColor=white)
 ![WebRTC](https://img.shields.io/badge/WebRTC-E33E1A?style=for-the-badge&amp;logo=webrtc&amp;logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&amp;logo=react&amp;logoColor=61DAFB)
-![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&amp;logo=flutter&amp;logoColor=white)
+![Socket.io](https://img.shields.io/badge/Socket.io-010101?style=for-the-badge&amp;logo=socketdotio&amp;logoColor=white)
 
 ---
 
@@ -89,7 +91,7 @@ I build production-grade AI systems that actually ship — not demos, not wrappe
 ## 🏗️ Brick-by-Brick Journey (Work History)
 
 ```text
-  [04] Freelance AI Engineer     | May 2026 — Present
+  [04] Freelance AI Developer    | May 2026 — Present
   [03] Bluecast R&D Intern       | DXF-to-JSON agentic pipelines, spatial logic loops
   [02] MCA Scholar @ TKM College | Hand tracking signaling, sea-safety telemetry
   [01] B.Sc. Computer Science    | The Foundation & Core Algorithms
@@ -98,20 +100,20 @@ I build production-grade AI systems that actually ship — not demos, not wrappe
 ### 🔨 Experience Breakdown
 
 #### 👾 Freelance AI Developer / MOC Builder | *Independent Builds (May 2026 — Present)*
-* Designed and deployed stateful agentic workflows using **LangGraph** to automate lead generation and calendar scheduling.
-* Built hybrid knowledge-retrieval graph stores using **Neo4j** and **Qdrant**, optimizing context injection accuracy by **40%**.
-* Architected and shipped (**Career-Pilot**), an autonomous job-hunting multi-agent system, and (**LegalMind**), an agentic GraphRAG WhatsApp advisory bot.
-* Engineered automated containerized deployment templates using **Docker** and **FastAPI** to serve and scale background agentic runtimes.
+* **Designed** and deployed stateful agentic workflows using **LangGraph** to automate lead generation and calendar scheduling.
+* **Built** hybrid knowledge-retrieval graph stores using **Neo4j** and **Qdrant**, optimizing context injection accuracy by **40%**.
+* **Architected** and shipped (**Career-Pilot**), an autonomous job-hunting multi-agent system, and (**LegalMind**), an agentic GraphRAG WhatsApp advisory bot.
+* **Engineered** automated containerized deployment templates using **Docker** and **FastAPI** to serve and scale background agentic runtimes.
 
 #### ⚡ R&D Intern — AI/Agentic Systems | *Bluecast Technologies (Jan 2026 — Apr 2026)*
-* Engineered a DXF-to-JSON parser using `ReAct` reasoning loops to automate room classifications for indoor navigation.
-* Created custom geometric heuristics to extract spatial door-connectivity graphs, slashing API costs by **75%**.
-* Developed a schema validation layer producing clean navigation-ready JSON outputs without post-processing.
+* **Engineered** a DXF-to-JSON parser using `ReAct` reasoning loops to automate room classifications for indoor navigation.
+* **Created** custom geometric heuristics to extract spatial door-connectivity graphs, slashing API costs by **75%**.
+* **Developed** a schema validation layer producing clean navigation-ready JSON outputs without post-processing.
 
-#### 🎓 MCA Scholar | *TKM College of Engineering (Jul 2024 — Jan 2026)*
-* Focused on advanced Data Structures & Algorithms (DSA) optimization in Java.
-* Developed browser-based WebRTC signaling workspaces with MediaPipe hand tracking models.
-* Programmed sea-safety alerts cache databases and Malayalam voice telemetry engines for sea navigation.
+#### 🎓 MCA Academic & Research Intern | *TKM College of Engineering (Jul 2024 — Jan 2026)*
+* **Optimized** core Data Structures & Algorithms (DSA) systems in Java for low-complexity execution.
+* **Architected** real-time browser-based WebRTC signaling workspaces integrated with MediaPipe hand-tracking models.
+* **Engineered** offline-first sea-safety telemetry caches and localized Malayalam TTS audio alerts for maritime safety.
 
 ---
 

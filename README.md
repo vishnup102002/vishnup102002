@@ -4,16 +4,14 @@
   <br />
   <br />
   
-<img src="https://readme-typing-svg.demolab.com?font=Space+Grotesk&size=28&pause=1000&color=FACC15&center=true&vCenter=true&width=600&lines=AI+Engineer+%7C+Agentic+Architect;Building+production+grade+generative+ai+systems;Engineered+to+ship+real+solutions;" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Space+Grotesk&size=28&pause=1000&color=FACC15&center=true&vCenter=true&width=800&lines=AI+Engineer+%7C+Agentic+Architect;Building+production+grade+generative+ai+systems;Engineered+to+ship+real+solutions;" alt="Typing SVG" />
+  <br />
   <br />
   
   [![System Status](https://img.shields.io/badge/System-Active-green?style=for-the-badge)](https://github.com/vishnup102002)
   [![Ready](https://img.shields.io/badge/Deployment--Readiness-98%25-yellow?style=for-the-badge)](https://github.com/vishnup102002)
-  [![Open to Roles](https://img.shields.io/badge/Roles-Open_To_AI_Engineer-rose?style=for-the-badge)](mailto:vishnup22102002@gmail.com)
+  [![Open to Roles](https://img.shields.io/badge/Roles-Open_To_AI_Engineer-d8b4fe?style=for-the-badge)](mailto:vishnup22102002@gmail.com)
 </div>
-
-<br />
-
 
 
 

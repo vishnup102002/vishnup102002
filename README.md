@@ -13,12 +13,6 @@
   [![Open to Roles](https://img.shields.io/badge/Roles-Open_To_AI_Engineer-d8b4fe?style=for-the-badge)](mailto:vishnup22102002@gmail.com)
 </div>
 
-<<<<<<< HEAD
-<br />
-# Hi, I'm Vishnu P. 🚀
-
-=======
->>>>>>> c0c9aa4535e030a7452942ea950e8c89daed868d
 
 
 ## 🔨 Currently Building

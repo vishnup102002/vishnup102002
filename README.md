@@ -14,21 +14,27 @@
 </div>
 
 <br />
+# Hi, I'm Vishnu P. 🚀
 
-# Hi, I'm Vishnu P.
+**AI Engineer · Generative AI · Agentic Systems**
 
-Production-grade agentic AI systems — LangGraph orchestration, hybrid GraphRAG, and infra that survives contact with real users.
+I build production-grade AI systems that actually ship — not demos, not wrappers, not tutorials.
 
-🔭 Currently building: **[LegalMind](https://github.com/vishnup102002/LegalMind)** — GraphRAG legal advisory bot  
-🌱 Currently exploring: multi-agent evaluation harnesses (LLM-as-a-Judge)
+![Status](https://img.shields.io/badge/System-Active-green?style=for-the-badge)
+![Deployment](https://img.shields.io/badge/Readiness-98%25-yellow?style=for-the-badge)
 
 ---
 
-> [!NOTE]
-> ### 📐 Build Ethos (System Design Principles)
-> * **Design for Failure** — All agentic pipelines include robust fallback logic (like multi-tier scraping & tool retries).
-> * **State-Checkpointing as Default** — Ensuring durability and crash-resilience for long-horizon loops.
-> * **Quality-First (LLM-as-a-Judge)** — Quantifiable, programmatically validated agent outputs rather than arbitrary manual testing.
+> [!IMPORTANT]
+> ### Engineering Manifesto
+> 
+> **Design for Failure:** I treat production as inherently unstable. Across all my systems, I build in modular fallbacks—whether it's multi-tier scraping for agents or offline telemetry caching for mobile apps.
+> 
+> **State-Aware Execution:** I prioritize data integrity. From maintaining session states in WhatsApp bots to tracking long-horizon search tasks, I implement checkpointing to ensure systems can recover from interrupted states.
+> 
+> **Objective Validation:** I favor quantifiable metrics over manual testing. Whether using an LLM-as-a-Judge to score an agent's reasoning or unit tests to validate geometric algorithms in vision pipelines, I ensure my systems are verifiable.
+> 
+> **Always Ship:** My ultimate metric is deployment. I prioritize getting a functional build into the user's hands over endless polishing. I design systems to be "shippable" from day one.
 
 ---
 

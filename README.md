@@ -4,18 +4,21 @@
   <br />
   <br />
   
-  <img src="https://readme-typing-svg.demolab.com?font=Space+Grotesk&amp;size=28&amp;pause=1000&amp;color=FACC15&amp;center=true&amp;vCenter=true&amp;width=600&amp;lines=AI+Engineer+%7C+Agentic+Systems;Building+LangGraph+Pipelines+That+Ship;GraphRAG+%2B+Neo4j+Specialist" alt="Typing SVG" />
-  
+  <img src="https://readme-typing-svg.demolab.com?font=Space+Grotesk&size=28&pause=1000&color=FACC15&center=true&vCenter=true&width=800&lines=AI+Engineer+%7C+Agentic+Architect;Building+production+grade+generative+ai+systems;Engineered+to+ship+real+solutions;" alt="Typing SVG" />
+  <br />
   <br />
   
   [![System Status](https://img.shields.io/badge/System-Active-green?style=for-the-badge)](https://github.com/vishnup102002)
   [![Ready](https://img.shields.io/badge/Deployment--Readiness-98%25-yellow?style=for-the-badge)](https://github.com/vishnup102002)
-  [![Open to Roles](https://img.shields.io/badge/Roles-Open_To_AI_Engineer-rose?style=for-the-badge)](mailto:vishnup22102002@gmail.com)
+  [![Open to Roles](https://img.shields.io/badge/Roles-Open_To_AI_Engineer-d8b4fe?style=for-the-badge)](mailto:vishnup22102002@gmail.com)
 </div>
 
+<<<<<<< HEAD
 <br />
 # Hi, I'm Vishnu P. 🚀
 
+=======
+>>>>>>> c0c9aa4535e030a7452942ea950e8c89daed868d
 
 
 ## 🔨 Currently Building
@@ -87,14 +90,6 @@
 
 ---
 
-## 🏗️ Brick-by-Brick Journey (Work History)
-
-```text
-  [04] Independent Builder       | May 2026 — Present
-  [03] Bluecast R&D Intern       | DXF-to-JSON agentic pipelines, spatial logic loops
-  [02] MCA Scholar @ TKM College | Hand tracking signaling, sea-safety telemetry
-  [01] B.Sc. Computer Science    | The Foundation & Core Algorithms
-```
 
 ### 🔨 Experience Breakdown
 

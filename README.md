@@ -4,8 +4,7 @@
   <br />
   <br />
   
-  <img src="https://readme-typing-svg.demolab.com?font=Space+Grotesk&amp;size=28&amp;pause=1000&amp;color=FACC15&amp;center=true&amp;vCenter=true&amp;width=600&amp;lines=AI+Engineer+%7C+Agentic+Systems;Building+LangGraph+Pipelines+That+Ship;GraphRAG+%2B+Neo4j+Specialist" alt="Typing SVG" />
-  
+<img src="https://readme-typing-svg.demolab.com?font=Space+Grotesk&size=28&pause=1000&color=FACC15&center=true&vCenter=true&width=600&lines=AI+Engineer+%7C+Agentic+Architect;Building+production+grade+generative+ai+systems;Engineered+to+ship+real+solutions;" alt="Typing SVG" />
   <br />
   
   [![System Status](https://img.shields.io/badge/System-Active-green?style=for-the-badge)](https://github.com/vishnup102002)

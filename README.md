@@ -14,6 +14,10 @@
 </div>
 
 <br />
+# Hi, I'm Vishnu P. 🚀
+
+
+
 ## 🔨 Currently Building
 **LegalMind** — WhatsApp legal advisory bot | LangGraph + Neo4j + Qdrant  
 > Core orchestration working. Debugging Twilio voice pipeline latency.
@@ -124,8 +128,8 @@
 ## 📊 Activity Metrics
 
 <p align="left">
-  <img src="https://github-readme-stats.vercel.app/api?username=vishnup102002&amp;show_icons=true&amp;theme=dark&amp;hide_border=true&amp;count_private=true" width="49%" alt="Vishnu's GitHub stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=vishnup102002&amp;layout=compact&amp;theme=dark&amp;hide_border=true" width="30%" alt="Top Langs" />
+  <img src="https://github-readme-stats-anuraghazra1.vercel.app/api?username=vishnup102002&amp;show_icons=true&amp;theme=dark&amp;hide_border=true&amp;count_private=true" width="49%" alt="Vishnu's GitHub stats" />
+  <img src="https://github-readme-stats-anuraghazra1.vercel.app/api/top-langs/?username=vishnup102002&amp;layout=compact&amp;theme=dark&amp;hide_border=true" width="40%" alt="Top Langs" />
 </p>
 
 ---

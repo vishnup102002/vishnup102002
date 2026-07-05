@@ -16,12 +16,7 @@
 <br />
 # Hi, I'm Vishnu P. 🚀
 
-**AI Engineer · Generative AI · Agentic Systems**
 
-I build production-grade AI systems that actually ship — not demos, not wrappers, not tutorials.
-
-![Status](https://img.shields.io/badge/System-Active-green?style=for-the-badge)
-![Deployment](https://img.shields.io/badge/Readiness-98%25-yellow?style=for-the-badge)
 
 ## 🔨 Currently Building
 **LegalMind** — WhatsApp legal advisory bot | LangGraph + Neo4j + Qdrant  
@@ -95,7 +90,7 @@ I build production-grade AI systems that actually ship — not demos, not wrappe
 ## 🏗️ Brick-by-Brick Journey (Work History)
 
 ```text
-  [04] Freelance AI Developer    | May 2026 — Present
+  [04] Independent Builder       | May 2026 — Present
   [03] Bluecast R&D Intern       | DXF-to-JSON agentic pipelines, spatial logic loops
   [02] MCA Scholar @ TKM College | Hand tracking signaling, sea-safety telemetry
   [01] B.Sc. Computer Science    | The Foundation & Core Algorithms
@@ -103,7 +98,7 @@ I build production-grade AI systems that actually ship — not demos, not wrappe
 
 ### 🔨 Experience Breakdown
 
-#### 👾 Freelance AI Developer / MOC Builder | *Independent Builds (May 2026 — Present)*
+#### 👾 Independent Builder | *Personal Projects (May 2026 — Present)*
 * **Built** Career-Pilot — autonomous 4-agent job-hunting system using LangGraph, FastMCP, and Docker.
 * **Building** LegalMind — WhatsApp legal advisory bot using GraphRAG (Neo4j + Qdrant) and Twilio.
 * **Containerised** both projects with Docker for production deployment on HuggingFace Spaces.
@@ -113,7 +108,7 @@ I build production-grade AI systems that actually ship — not demos, not wrappe
 * **Created** custom geometric heuristics to extract spatial door-connectivity graphs, slashing API costs by **75%**.
 * **Developed** a schema validation layer producing clean navigation-ready JSON outputs without post-processing.
 
-#### 🎓 MCA Academic & Research Intern | *TKM College of Engineering (Jul 2024 — Jan 2026)*
+#### 🎓 MCA Student | *TKM College of Engineering (Jul 2024 — Jan 2026)*
 * **Optimized** core Data Structures & Algorithms (DSA) systems in Java for low-complexity execution.
 * **Architected** real-time browser-based WebRTC signaling workspaces integrated with MediaPipe hand-tracking models.
 * **Engineered** offline-first sea-safety telemetry caches and localized Malayalam TTS audio alerts for maritime safety.

@@ -84,13 +84,6 @@
 
 ---
 
-## 🏗️ Brick-by-Brick Journey (Work History)
-
-```text
-  [04] Independent Builder       | May 2026 — Present
-  [03] Bluecast R&D Intern       | DXF-to-JSON agentic pipelines, spatial logic loops
-  [02] MCA Scholar @ TKM College | Hand tracking signaling, sea-safety telemetry
-  [01] B.Sc. Computer Science    | The Foundation & Core Algorithms
 ```
 
 ### 🔨 Experience Breakdown
@@ -124,10 +117,10 @@
 
 ## 📊 Activity Metrics
 
-<p align="left">
-  <img src="https://github-readme-stats.vercel.app/api?username=vishnup102002&amp;show_icons=true&amp;theme=dark&amp;hide_border=true&amp;count_private=true" width="49%" alt="Vishnu's GitHub stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=vishnup102002&amp;layout=compact&amp;theme=dark&amp;hide_border=true" width="30%" alt="Top Langs" />
-</p>
+<div align="left">
+  <img src="https://github-readme-stats.vercel.app/api?username=vishnup102002&show_icons=true&theme=dark&hide_border=true&count_private=true" width="49%" alt="Vishnu's GitHub stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=vishnup102002&layout=compact&theme=dark&hide_border=true" width="40%" alt="Top Langs" />
+</div>
 
 ---
 

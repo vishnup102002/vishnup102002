@@ -14,10 +14,6 @@
 </div>
 
 <br />
-# Hi, I'm Vishnu P. 🚀
-
-
-
 ## 🔨 Currently Building
 **LegalMind** — WhatsApp legal advisory bot | LangGraph + Neo4j + Qdrant  
 > Core orchestration working. Debugging Twilio voice pipeline latency.

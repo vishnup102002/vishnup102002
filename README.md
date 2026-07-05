@@ -23,6 +23,10 @@ I build production-grade AI systems that actually ship — not demos, not wrappe
 ![Status](https://img.shields.io/badge/System-Active-green?style=for-the-badge)
 ![Deployment](https://img.shields.io/badge/Readiness-98%25-yellow?style=for-the-badge)
 
+## 🔨 Currently Building
+**LegalMind** — WhatsApp legal advisory bot | LangGraph + Neo4j + Qdrant  
+> Core orchestration working. Debugging Twilio voice pipeline latency.
+
 ---
 
 > [!IMPORTANT]
@@ -100,10 +104,9 @@ I build production-grade AI systems that actually ship — not demos, not wrappe
 ### 🔨 Experience Breakdown
 
 #### 👾 Freelance AI Developer / MOC Builder | *Independent Builds (May 2026 — Present)*
-* **Designed** and deployed stateful agentic workflows using **LangGraph** to automate lead generation and calendar scheduling.
-* **Built** hybrid knowledge-retrieval graph stores using **Neo4j** and **Qdrant**, optimizing context injection accuracy by **40%**.
-* **Architected** and shipped (**Career-Pilot**), an autonomous job-hunting multi-agent system, and (**LegalMind**), an agentic GraphRAG WhatsApp advisory bot.
-* **Engineered** automated containerized deployment templates using **Docker** and **FastAPI** to serve and scale background agentic runtimes.
+* **Built** Career-Pilot — autonomous 4-agent job-hunting system using LangGraph, FastMCP, and Docker.
+* **Building** LegalMind — WhatsApp legal advisory bot using GraphRAG (Neo4j + Qdrant) and Twilio.
+* **Containerised** both projects with Docker for production deployment on HuggingFace Spaces.
 
 #### ⚡ R&D Intern — AI/Agentic Systems | *Bluecast Technologies (Jan 2026 — Apr 2026)*
 * **Engineered** a DXF-to-JSON parser using `ReAct` reasoning loops to automate room classifications for indoor navigation.
@@ -133,7 +136,6 @@ I build production-grade AI systems that actually ship — not demos, not wrappe
   <img src="https://github-readme-stats.vercel.app/api?username=vishnup102002&amp;show_icons=true&amp;theme=dark&amp;hide_border=true&amp;count_private=true" width="49%" alt="Vishnu's GitHub stats" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=vishnup102002&amp;layout=compact&amp;theme=dark&amp;hide_border=true" width="30%" alt="Top Langs" />
 </p>
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=vishnup102002&amp;theme=dark&amp;hide_border=true" width="60%" alt="GitHub Streak" />
 
 ---
 

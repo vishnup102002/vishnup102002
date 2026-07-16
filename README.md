@@ -108,6 +108,7 @@
 
 * **AWS Generative AI and AI Agents Professional** — *Coursera, 2026*
 * **IBM Generative AI & AI Agents Specialist** — *Coursera, 2026*
+* **IBM Fundamentals of AI Agents Using RA G& LangChain- *Coursera, 2026*
 * **IBM Python for Data Science & Development** — *Coursera, 2026*
 * **Data Structures and Algorithms** — *NPTEL, IIT Kanpur, 2025*
 * **Python – Web Development Expert** — *NACTET, 2024*

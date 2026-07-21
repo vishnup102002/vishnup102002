@@ -2,24 +2,6 @@
 
 <img src="./header.svg" width="850" alt="Vishnu P Brick Banner" />
 
-<br/><br/>
-
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=22&pause=80&color=10B981&center=true&vCenter=true&width=850&repeat=true&lines=%24%2B+agent.init(%22Multi-Agent+GraphRAG%22)+--mode%3Dproduction;%24%2B+docker+compose+up+--build+--detach;%24%2B+langgraph+serve+--checkpoint-sqlite+--port+8080;%24%2B+mcp+deploy+tools%2F+--host+0.0.0.0+--verify" alt="Typing SVG" />
-
-<br/>
-
-
-
-```
-┌─────────────────────────────────────────────────────────────────────┐
-│  [SYS]  SYSTEM STATUS        ···  ACTIVE          uptime 99.97%   │
-│  [OK ]  BUILD INTEGRITY      ···  98% READY       last: 2h ago    │
-│  [RUN]  DEPLOYMENT TARGET    ···  DOCKER + HF SPACES              │
-│  [SPEC] ROLE                 ···  OPEN TO AI ENGINEER ROLES        │
-└─────────────────────────────────────────────────────────────────────┘
-```
-
-</div>
 
 ---
 

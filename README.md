@@ -2,44 +2,7 @@
 
 <img src="./header.svg" width="850" alt="Vishnu P Brick Banner" />
 
-<br/><br/>
-
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=20&duration=2500&pause=800&color=10B981&center=true&vCenter=true&width=850&repeat=true&lines=610cd79+feat%3A+Skunkworks+CLI+status+box%2C+animated+SVG+diagrams;caa9682+yml+updated+%7C+Add+Actions+for+Lego+contribution+grid;a53a2aa+feat%3A+4-agent+Career-Pilot+LangGraph+pipeline+shipped;b7f3c01+fix%3A+Twilio+voice+pipeline+latency+in+LegalMind;d92e4f1+feat%3A+GraphRAG+hybrid+retrieval+Neo4j+%2B+Qdrant;7c8b310+feat%3A+GestureLearn+WebRTC+%2B+MediaPipe+21-landmark+FSM;f1a62d3+chore%3A+Docker+compose+production+deploy+HF+Spaces" alt="Typing SVG" />
-
-<br/>
-
-```
-┌─────────────────────────────────────────────────────────────────────┐
-│  [SYS]  SYSTEM STATUS        ···  ACTIVE          uptime 99.97%   │
-│  [OK ]  BUILD INTEGRITY      ···  98% READY       last: 2h ago    │
-│  [RUN]  DEPLOYMENT TARGET    ···  DOCKER + HF SPACES              │
-│  [SPEC] ROLE                 ···  OPEN TO AI ENGINEER ROLES        │
-└─────────────────────────────────────────────────────────────────────┘
-```
-
 </div>
-
----
-
-## 🧱 Real-Time Build Grid
-
-Every brick below is **live** — it's rendered from my actual GitHub contribution
-calendar by a scheduled Action, not a static image. Grey studs = no commits
-that day; the greens escalate with real commit volume, same tiers GitHub
-itself uses. The minifig just walks the line for flavour — the colour is the
-real data.
-
-<div align="center">
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/vishnup102002/vishnup102002/output/lego-grid-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/vishnup102002/vishnup102002/output/lego-grid.svg">
-  <img alt="Lego contribution grid" src="https://raw.githubusercontent.com/vishnup102002/vishnup102002/output/lego-grid.svg" width="100%">
-</picture>
-</div>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=vishnup102002&layout=compact&theme=tokyonight&hide_border=true&bg_color=0F172A" width="45%" alt="Top Languages" />
-</p>
 
 ---
 

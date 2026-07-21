@@ -122,11 +122,10 @@
 
 ---
 
-## 📊 Activity Metrics
+## 📈 Activity Graph
 
-<p align="left">
-  <img src="https://github-readme-stats-anuraghazra1.vercel.app/api?username=vishnup102002&show_icons=true&theme=dark&hide_border=true&count_private=true" width="49%" alt="Vishnu's GitHub stats" />
-  <img src="https://github-readme-stats-anuraghazra1.vercel.app/api/top-langs/?username=vishnup102002&layout=compact&theme=dark&hide_border=true" width="40%" alt="Top Langs" />
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=vishnup102002&theme=react-dark&area=true&hide_border=true" width="100%" alt="Vishnu's GitHub Activity Graph" />
 </p>
 
 ---

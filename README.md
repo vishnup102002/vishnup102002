@@ -1,67 +1,97 @@
 <div align="center">
-  <img src="./header.svg" width="850" alt="Vishnu P Brick Banner" />
-  
-  <br />
-  <br />
-  
-  <img src="https://readme-typing-svg.demolab.com?font=Space+Grotesk&size=28&pause=1000&color=FACC15&center=true&vCenter=true&width=800&lines=AI+Engineer+%7C+Agentic+Architect;Building+production+grade+generative+ai+systems;Engineered+to+ship+real+solutions;" alt="Typing SVG" />
-  <br />
-  <br />
+
+<img src="./header.svg" width="850" alt="Vishnu P Brick Banner" />
+
+<br/><br/>
+
+<img src="https://readme-typing-svg.demolab.com?font=Space+Grotesk&size=26&pause=1200&color=FACC15&center=true&vCenter=true&width=800&lines=AI+Engineer+%7C+Agentic+Architect;Assembling+production-grade+generative+ai+systems;Brick+by+brick%2C+shipped+to+production." alt="Typing SVG" />
+
+<br/>
+
+```
+┌──────────────────────────────────────────────────────────────────┐
+│  SET No. 2026-AI  ·  MODEL: AGENTIC ARCHITECT  ·  PIECES: 10,000+ │
+├──────────────────────────────────────────────────────────────────┤
+│  [■] LangGraph Multi-Agent Loops      [■] GraphRAG (Neo4j+Qdrant) │
+│  [■] FastMCP Tool Integration         [■] Production Docker Ships │
+└──────────────────────────────────────────────────────────────────┘
+```
+
 <p align="center">
-  <img src="https://ghchart.rshah.org/vishnup102002" alt="GitHub Contributions Chart" width="49%" />
+  <a href="https://github.com/vishnup102002"><img src="https://img.shields.io/badge/SYSTEM-ACTIVE-10b981?style=for-the-badge&logo=gnubash&logoColor=white&labelColor=1e293b" /></a>
+  <a href="https://github.com/vishnup102002"><img src="https://img.shields.io/badge/BUILD-98%25_READY-facc15?style=for-the-badge&logoColor=black&labelColor=1e293b" /></a>
+  <a href="mailto:vishnup22102002@gmail.com"><img src="https://img.shields.io/badge/ROLES-OPEN_TO_AI_ENGINEER-f43f5e?style=for-the-badge&labelColor=1e293b" /></a>
+</p>
+
+</div>
+
+---
+
+## 🧱 Real-Time Build Grid
+
+Every brick below is **live** — it's rendered from my actual GitHub contribution
+calendar by a scheduled Action, not a static image. Grey studs = no commits
+that day; the greens escalate with real commit volume, same tiers GitHub
+itself uses. The minifig just walks the line for flavour — the colour is the
+real data.
+
+<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/vishnup102002/vishnup102002/output/lego-grid-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/vishnup102002/vishnup102002/output/lego-grid.svg">
+  <img alt="Lego contribution grid" src="https://raw.githubusercontent.com/vishnup102002/vishnup102002/output/lego-grid.svg" width="100%">
+</picture>
+</div>
+
+<p align="center">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=vishnup102002&layout=compact&theme=tokyonight&hide_border=true&bg_color=0F172A" width="45%" alt="Top Languages" />
 </p>
 
-  
-  [![System Status](https://img.shields.io/badge/System-Active-green?style=for-the-badge)](https://github.com/vishnup102002)
-  [![Ready](https://img.shields.io/badge/Deployment--Readiness-98%25-yellow?style=for-the-badge)](https://github.com/vishnup102002)
-  [![Open to Roles](https://img.shields.io/badge/Roles-Open_To_AI_Engineer-d8b4fe?style=for-the-badge)](mailto:vishnup22102002@gmail.com)
-</div>
-
-
+---
 
 ## 🔨 Currently Building
-**LegalMind** — WhatsApp legal advisory bot | LangGraph + Neo4j + Qdrant  
+
+**LegalMind** — WhatsApp legal advisory bot | LangGraph + Neo4j + Qdrant
 > Core orchestration working. Debugging Twilio voice pipeline latency.
 
 ---
 
 > [!IMPORTANT]
-> ### Engineering Manifesto
-> 
-> **Design for Failure:** I treat production as inherently unstable. Across all my systems, I build in modular fallbacks—whether it's multi-tier scraping for agents or offline telemetry caching for mobile apps.
-> 
-> **State-Aware Execution:** I prioritize data integrity. From maintaining session states in WhatsApp bots to tracking long-horizon search tasks, I implement checkpointing to ensure systems can recover from interrupted states.
-> 
-> **Objective Validation:** I favor quantifiable metrics over manual testing. Whether using an LLM-as-a-Judge to score an agent's reasoning or unit tests to validate geometric algorithms in vision pipelines, I ensure my systems are verifiable.
-> 
-> **Always Ship:** My ultimate metric is deployment. I prioritize getting a functional build into the user's hands over endless polishing. I design systems to be "shippable" from day one.
+> ### 📐 Engineering Manifesto — Instructions Included
+>
+> **Design for Failure:** I treat production as inherently unstable. Across all my systems, I build in modular fallbacks — whether it's multi-tier scraping for agents or offline telemetry caching for mobile apps.
+>
+> **State-Aware Execution:** I prioritize data integrity. From maintaining session states in WhatsApp bots to tracking long-horizon search tasks, I implement checkpointing so systems recover from interrupted states.
+>
+> **Objective Validation:** I favor quantifiable metrics over manual testing. Whether it's an LLM-as-a-Judge scoring an agent's reasoning, or unit tests validating geometric algorithms in vision pipelines, I make my systems verifiable.
+>
+> **Always Ship:** My ultimate metric is deployment. I prioritize getting a functional build into the user's hands over endless polishing — every system is designed to be "shippable" from day one.
 
 ---
 
-## 🛠️ Tech Stack
+## 🧰 Brick Inventory (Tech Stack)
 
 **AI & Core Domains**
-![LangGraph](https://img.shields.io/badge/LangGraph-00C853?style=for-the-badge&amp;logo=langchain&amp;logoColor=white)
-![GraphRAG](https://img.shields.io/badge/GraphRAG-red?style=for-the-badge&amp;logo=neo4j&amp;logoColor=white)
-![LLM-Judge](https://img.shields.io/badge/LLM_Judge-blue?style=for-the-badge)
-![Model Context Protocol](https://img.shields.io/badge/MCP-Active-green?style=for-the-badge&amp;logo=anthropic&amp;logoColor=white)
+![LangGraph](https://img.shields.io/badge/LangGraph-00C853?style=for-the-badge&logo=langchain&logoColor=white)
+![GraphRAG](https://img.shields.io/badge/GraphRAG-red?style=for-the-badge&logo=neo4j&logoColor=white)
+![LLM-Judge](https://img.shields.io/badge/LLM_Judge-facc15?style=for-the-badge&logoColor=black)
+![Model Context Protocol](https://img.shields.io/badge/MCP-Active-10b981?style=for-the-badge&logo=anthropic&logoColor=white)
 
 **Languages & Frameworks**
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&amp;logo=python&amp;logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-05998B?style=for-the-badge&amp;logo=fastapi&amp;logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&amp;logo=typescript&amp;logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&amp;logo=javascript&amp;logoColor=black)
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&amp;logo=react&amp;logoColor=61DAFB)
-![NodeJS](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&amp;logo=nodedotjs&amp;logoColor=white)
-![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&amp;logo=flutter&amp;logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-05998B?style=for-the-badge&logo=fastapi&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![NodeJS](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
 
 **Infrastructure**
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&amp;logo=docker&amp;logoColor=white)
-![Neo4j](https://img.shields.io/badge/Neo4j-008CC1?style=for-the-badge&amp;logo=neo4j&amp;logoColor=white)
-![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&amp;logo=firebase&amp;logoColor=black)
-![WebRTC](https://img.shields.io/badge/WebRTC-E33E1A?style=for-the-badge&amp;logo=webrtc&amp;logoColor=white)
-![Socket.io](https://img.shields.io/badge/Socket.io-010101?style=for-the-badge&amp;logo=socketdotio&amp;logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Neo4j](https://img.shields.io/badge/Neo4j-008CC1?style=for-the-badge&logo=neo4j&logoColor=white)
+![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
+![WebRTC](https://img.shields.io/badge/WebRTC-E33E1A?style=for-the-badge&logo=webrtc&logoColor=white)
+![Socket.io](https://img.shields.io/badge/Socket.io-010101?style=for-the-badge&logo=socketdotio&logoColor=white)
 
 ---
 
@@ -89,8 +119,7 @@
 
 ---
 
-
-### 🔨 Experience Breakdown
+## 🔨 Experience Breakdown
 
 #### 👾 Independent Builder | *Personal Projects (May 2026 — Present)*
 * **Built** Career-Pilot — autonomous 4-agent job-hunting system using LangGraph, FastMCP, and Docker.
@@ -118,14 +147,13 @@
 * **Data Structures and Algorithms** — *NPTEL, IIT Kanpur, 2025*
 * **Python – Web Development Expert** — *NACTET, 2024*
 
-
 ---
 
 ## 📊 Activity Metrics
 
 <p align="left">
-  <img src="https://github-readme-stats-anuraghazra1.vercel.app/api?username=vishnup102002&amp;show_icons=true&amp;theme=dark&amp;hide_border=true&amp;count_private=true" width="49%" alt="Vishnu's GitHub stats" />
-  <img src="https://github-readme-stats-anuraghazra1.vercel.app/api/top-langs/?username=vishnup102002&amp;layout=compact&amp;theme=dark&amp;hide_border=true" width="40%" alt="Top Langs" />
+  <img src="https://github-readme-stats-anuraghazra1.vercel.app/api?username=vishnup102002&show_icons=true&theme=dark&hide_border=true&count_private=true" width="49%" alt="Vishnu's GitHub stats" />
+  <img src="https://github-readme-stats-anuraghazra1.vercel.app/api/top-langs/?username=vishnup102002&layout=compact&theme=dark&hide_border=true" width="40%" alt="Top Langs" />
 </p>
 
 ---
@@ -137,3 +165,7 @@
 * 🌐 Portfolio Website: **[vishnup.vercel.app](https://vishnup.vercel.app)**
 * 📄 Resume: **[Resume PDF (Download)](https://vishnup.vercel.app/assets/VISHNU.pdf)**
 * 🤗 HuggingFace Space: **[Vishnuporkulath](https://huggingface.co/Vishnuporkulath)**
+
+<div align="center">
+<sub>Assembled brick by brick · Vishnu P © 2026</sub>
+</div>

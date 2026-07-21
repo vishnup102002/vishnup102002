@@ -2,6 +2,10 @@
 
 <img src="./header.svg" width="850" alt="Vishnu P Brick Banner" />
 
+<br/>
+
+<img src="./terminal.svg" width="850" alt="Terminal Animation" />
+
 </div>
 
 ---

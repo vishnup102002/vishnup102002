@@ -6,172 +6,129 @@
       .brick-text {
         font-family: 'Space Grotesk', system-ui, -apple-system, sans-serif;
         font-weight: 900;
-        text-shadow: 1px 2px 0px rgba(0, 0, 0, 0.3);
+        text-shadow: 1px 2px 0px rgba(0, 0, 0, 0.5);
       }
       .subtitle {
         font-family: 'Space Grotesk', system-ui, -apple-system, sans-serif;
         font-weight: 700;
-        font-size: 14px;
+        font-size: 13px;
         letter-spacing: 5px;
         fill: #94a3b8;
       }
       .code-line {
         font-family: 'JetBrains Mono', monospace;
         font-size: 11px;
-        fill: #64748b;
-      }
-      .grid-line {
-        stroke: #1e293b;
-        stroke-width: 0.5;
-        opacity: 0.15;
+        fill: #10b981;
       }
     </style>
     
-    <!-- Background Grid Pattern -->
-    <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse">
-      <path d="M 20 0 L 0 0 0 20" fill="none" class="grid-line" />
-    </pattern>
-    
-    <!-- Deep background gradient -->
+    <!-- Deep Skunkworks background -->
     <linearGradient id="bg-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#060b13" />
-      <stop offset="100%" stop-color="#0b1324" />
+      <stop offset="0%" stop-color="#050505" />
+      <stop offset="100%" stop-color="#0a0a0a" />
     </linearGradient>
+
+    <!-- Ambient glow filters -->
+    <filter id="blur-filter" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="35" />
+    </filter>
+    <filter id="glow-green" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2" />
+    </filter>
   </defs>
 
   <!-- Baseplate Background -->
-  <rect width="850" height="200" fill="url(#bg-gradient)" rx="12" />
-  <rect width="850" height="200" fill="url(#grid)" rx="12" />
+  <rect width="850" height="200" fill="url(#bg-gradient)" rx="10" />
+  <rect width="850" height="200" fill="none" stroke="#0f172a" stroke-width="1.5" rx="10" />
 
-  <!-- Ambient Glow Orbs -->
-  <circle cx="250" cy="90" r="140" fill="#e11d48" opacity="0.08" filter="url(#blur-filter)"/>
-  <circle cx="600" cy="110" r="120" fill="#facc15" opacity="0.05" filter="url(#blur-filter)"/>
+  <!-- Ambient Glow Orbs (matching portfolio orb-1, orb-2, orb-3) -->
+  <circle cx="200" cy="90" r="130" fill="#10b981" opacity="0.06" filter="url(#blur-filter)"/>
+  <circle cx="650" cy="100" r="110" fill="#38bdf8" opacity="0.05" filter="url(#blur-filter)"/>
+  <circle cx="425" cy="140" r="80" fill="#f43f5e" opacity="0.04" filter="url(#blur-filter)"/>
 
-  <!-- Filters -->
-  <filter id="blur-filter" x="-20%" y="-20%" width="140%" height="140%">
-    <feGaussianBlur stdDeviation="30" />
-  </filter>
-
-  <!-- The Bricks (translated to X=197, Y=35) -->
-  <g transform="translate(197, 35)">
+  <!-- The Bricks (translated to X=197, Y=30) -->
+  <g transform="translate(197, 30)">
     
-    <!-- V: X=0 -->
+    <!-- V: Red (#f43f5e) -->
     <g transform="translate(0, 0)">
-      <!-- Shadow -->
       <rect x="0" y="5" width="56" height="70" rx="6" fill="#0f172a" />
-      <!-- Body -->
-      <rect x="0" y="0" width="56" height="70" rx="6" fill="#e11d48" stroke="#0f172a" stroke-width="3.5" />
-      <!-- Stud Wall -->
-      <rect x="16" y="-8" width="24" height="10" rx="2" fill="#e11d48" stroke="#0f172a" stroke-width="3.5" />
-      <!-- Stud Merge -->
-      <rect x="18" y="-2" width="20" height="4" fill="#e11d48" />
-      <!-- Stud Cap -->
+      <rect x="0" y="0" width="56" height="70" rx="6" fill="#f43f5e" stroke="#0f172a" stroke-width="3.5" />
+      <rect x="16" y="-8" width="24" height="10" rx="2" fill="#f43f5e" stroke="#0f172a" stroke-width="3.5" />
+      <rect x="18" y="-2" width="20" height="4" fill="#f43f5e" />
       <ellipse cx="28" cy="-8" rx="12" ry="4" fill="#fb7185" stroke="#0f172a" stroke-width="3.5" />
-      <!-- Text -->
       <text x="28" y="47" class="brick-text" font-size="38" fill="#ffffff" text-anchor="middle">V</text>
     </g>
 
-    <!-- i: X=64 -->
+    <!-- i: Green (#10b981) -->
     <g transform="translate(64, 0)">
-      <!-- Shadow -->
       <rect x="0" y="5" width="56" height="70" rx="6" fill="#0f172a" />
-      <!-- Body -->
-      <rect x="0" y="0" width="56" height="70" rx="6" fill="#facc15" stroke="#0f172a" stroke-width="3.5" />
-      <!-- Stud Wall -->
-      <rect x="16" y="-8" width="24" height="10" rx="2" fill="#facc15" stroke="#0f172a" stroke-width="3.5" />
-      <!-- Stud Merge -->
-      <rect x="18" y="-2" width="20" height="4" fill="#facc15" />
-      <!-- Stud Cap -->
-      <ellipse cx="28" cy="-8" rx="12" ry="4" fill="#fef08a" stroke="#0f172a" stroke-width="3.5" />
-      <!-- Text -->
+      <rect x="0" y="0" width="56" height="70" rx="6" fill="#10b981" stroke="#0f172a" stroke-width="3.5" />
+      <rect x="16" y="-8" width="24" height="10" rx="2" fill="#10b981" stroke="#0f172a" stroke-width="3.5" />
+      <rect x="18" y="-2" width="20" height="4" fill="#10b981" />
+      <ellipse cx="28" cy="-8" rx="12" ry="4" fill="#6ee7b7" stroke="#0f172a" stroke-width="3.5" />
       <text x="28" y="47" class="brick-text" font-size="38" fill="#0f172a" text-anchor="middle">i</text>
     </g>
 
-    <!-- s: X=128 -->
+    <!-- s: Blue (#38bdf8) -->
     <g transform="translate(128, 0)">
-      <!-- Shadow -->
       <rect x="0" y="5" width="56" height="70" rx="6" fill="#0f172a" />
-      <!-- Body -->
-      <rect x="0" y="0" width="56" height="70" rx="6" fill="#ca8a04" stroke="#0f172a" stroke-width="3.5" />
-      <!-- Stud Wall -->
-      <rect x="16" y="-8" width="24" height="10" rx="2" fill="#ca8a04" stroke="#0f172a" stroke-width="3.5" />
-      <!-- Stud Merge -->
-      <rect x="18" y="-2" width="20" height="4" fill="#ca8a04" />
-      <!-- Stud Cap -->
-      <ellipse cx="28" cy="-8" rx="12" ry="4" fill="#facc15" stroke="#0f172a" stroke-width="3.5" />
-      <!-- Text -->
+      <rect x="0" y="0" width="56" height="70" rx="6" fill="#0ea5e9" stroke="#0f172a" stroke-width="3.5" />
+      <rect x="16" y="-8" width="24" height="10" rx="2" fill="#0ea5e9" stroke="#0f172a" stroke-width="3.5" />
+      <rect x="18" y="-2" width="20" height="4" fill="#0ea5e9" />
+      <ellipse cx="28" cy="-8" rx="12" ry="4" fill="#38bdf8" stroke="#0f172a" stroke-width="3.5" />
       <text x="28" y="47" class="brick-text" font-size="38" fill="#ffffff" text-anchor="middle">s</text>
     </g>
 
-    <!-- h: X=192 -->
+    <!-- h: Blue (#0ea5e9) -->
     <g transform="translate(192, 0)">
-      <!-- Shadow -->
       <rect x="0" y="5" width="56" height="70" rx="6" fill="#0f172a" />
-      <!-- Body -->
-      <rect x="0" y="0" width="56" height="70" rx="6" fill="#1e293b" stroke="#0f172a" stroke-width="3.5" />
-      <!-- Stud Wall -->
-      <rect x="16" y="-8" width="24" height="10" rx="2" fill="#1e293b" stroke="#0f172a" stroke-width="3.5" />
-      <!-- Stud Merge -->
-      <rect x="18" y="-2" width="20" height="4" fill="#1e293b" />
-      <!-- Stud Cap -->
-      <ellipse cx="28" cy="-8" rx="12" ry="4" fill="#475569" stroke="#0f172a" stroke-width="3.5" />
-      <!-- Text -->
+      <rect x="0" y="0" width="56" height="70" rx="6" fill="#0ea5e9" stroke="#0f172a" stroke-width="3.5" />
+      <rect x="16" y="-8" width="24" height="10" rx="2" fill="#0ea5e9" stroke="#0f172a" stroke-width="3.5" />
+      <rect x="18" y="-2" width="20" height="4" fill="#0ea5e9" />
+      <ellipse cx="28" cy="-8" rx="12" ry="4" fill="#38bdf8" stroke="#0f172a" stroke-width="3.5" />
       <text x="28" y="47" class="brick-text" font-size="38" fill="#ffffff" text-anchor="middle">h</text>
     </g>
 
-    <!-- n: X=256 -->
+    <!-- n: Red (#f43f5e) -->
     <g transform="translate(256, 0)">
-      <!-- Shadow -->
       <rect x="0" y="5" width="56" height="70" rx="6" fill="#0f172a" />
-      <!-- Body -->
-      <rect x="0" y="0" width="56" height="70" rx="6" fill="#e11d48" stroke="#0f172a" stroke-width="3.5" />
-      <!-- Stud Wall -->
-      <rect x="16" y="-8" width="24" height="10" rx="2" fill="#e11d48" stroke="#0f172a" stroke-width="3.5" />
-      <!-- Stud Merge -->
-      <rect x="18" y="-2" width="20" height="4" fill="#e11d48" />
-      <!-- Stud Cap -->
+      <rect x="0" y="0" width="56" height="70" rx="6" fill="#f43f5e" stroke="#0f172a" stroke-width="3.5" />
+      <rect x="16" y="-8" width="24" height="10" rx="2" fill="#f43f5e" stroke="#0f172a" stroke-width="3.5" />
+      <rect x="18" y="-2" width="20" height="4" fill="#f43f5e" />
       <ellipse cx="28" cy="-8" rx="12" ry="4" fill="#fb7185" stroke="#0f172a" stroke-width="3.5" />
-      <!-- Text -->
       <text x="28" y="47" class="brick-text" font-size="38" fill="#ffffff" text-anchor="middle">n</text>
     </g>
 
-    <!-- u: X=320 -->
+    <!-- u: Green (#10b981) -->
     <g transform="translate(320, 0)">
-      <!-- Shadow -->
       <rect x="0" y="5" width="56" height="70" rx="6" fill="#0f172a" />
-      <!-- Body -->
-      <rect x="0" y="0" width="56" height="70" rx="6" fill="#facc15" stroke="#0f172a" stroke-width="3.5" />
-      <!-- Stud Wall -->
-      <rect x="16" y="-8" width="24" height="10" rx="2" fill="#facc15" stroke="#0f172a" stroke-width="3.5" />
-      <!-- Stud Merge -->
-      <rect x="18" y="-2" width="20" height="4" fill="#facc15" />
-      <!-- Stud Cap -->
-      <ellipse cx="28" cy="-8" rx="12" ry="4" fill="#fef08a" stroke="#0f172a" stroke-width="3.5" />
-      <!-- Text -->
+      <rect x="0" y="0" width="56" height="70" rx="6" fill="#10b981" stroke="#0f172a" stroke-width="3.5" />
+      <rect x="16" y="-8" width="24" height="10" rx="2" fill="#10b981" stroke="#0f172a" stroke-width="3.5" />
+      <rect x="18" y="-2" width="20" height="4" fill="#10b981" />
+      <ellipse cx="28" cy="-8" rx="12" ry="4" fill="#6ee7b7" stroke="#0f172a" stroke-width="3.5" />
       <text x="28" y="47" class="brick-text" font-size="38" fill="#0f172a" text-anchor="middle">u</text>
     </g>
 
-    <!-- P: X=400 (leaves 24px space after u) -->
+    <!-- P: Red (#f43f5e) — after space -->
     <g transform="translate(400, 0)">
-      <!-- Shadow -->
       <rect x="0" y="5" width="56" height="70" rx="6" fill="#0f172a" />
-      <!-- Body -->
-      <rect x="0" y="0" width="56" height="70" rx="6" fill="#e11d48" stroke="#0f172a" stroke-width="3.5" />
-      <!-- Stud Wall -->
-      <rect x="16" y="-8" width="24" height="10" rx="2" fill="#e11d48" stroke="#0f172a" stroke-width="3.5" />
-      <!-- Stud Merge -->
-      <rect x="18" y="-2" width="20" height="4" fill="#e11d48" />
-      <!-- Stud Cap -->
+      <rect x="0" y="0" width="56" height="70" rx="6" fill="#f43f5e" stroke="#0f172a" stroke-width="3.5" />
+      <rect x="16" y="-8" width="24" height="10" rx="2" fill="#f43f5e" stroke="#0f172a" stroke-width="3.5" />
+      <rect x="18" y="-2" width="20" height="4" fill="#f43f5e" />
       <ellipse cx="28" cy="-8" rx="12" ry="4" fill="#fb7185" stroke="#0f172a" stroke-width="3.5" />
-      <!-- Text -->
       <text x="28" y="47" class="brick-text" font-size="38" fill="#ffffff" text-anchor="middle">P</text>
     </g>
 
   </g>
 
   <!-- Subtitle -->
-  <text x="425" y="148" class="subtitle" text-anchor="middle">AI ENGINEER &amp; AGENTIC SYSTEMS BUILDER</text>
+  <text x="425" y="143" class="subtitle" text-anchor="middle">AI ENGINEER &amp; AGENTIC SYSTEMS BUILDER</text>
 
-  <!-- Code Line -->
-  <text x="425" y="172" class="code-line" text-anchor="middle">// Systems-oriented Generative AI &amp; Multi-Agent Orchestration</text>
+  <!-- Code Line — terminal green -->
+  <text x="425" y="168" class="code-line" text-anchor="middle">&gt; I turn ideas into production AI systems.</text>
+
+  <!-- Pulsing green dot -->
+  <circle cx="280" cy="165" r="3" fill="#10b981" filter="url(#glow-green)">
+    <animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite" />
+  </circle>
 </svg>

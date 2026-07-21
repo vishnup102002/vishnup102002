@@ -1,108 +1,104 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 280" width="850" height="280">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 240" width="850" height="240">
   <defs>
     <style>
       @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&amp;display=swap');
 
-      .term-bg { fill: #0a0e17; rx: 10; }
-      .term-border { fill: none; stroke: #1e293b; stroke-width: 1.5; rx: 10; }
-      .title-bar { fill: #111827; }
+      .term-bg { fill: #040710; }
+      .term-border { fill: none; stroke: #0f172a; stroke-width: 2.5; rx: 8; }
+      .title-bar { fill: #0a0e14; }
       .dot-red { fill: #f43f5e; }
-      .dot-yellow { fill: #facc15; }
+      .dot-yellow { fill: #f59e0b; }
       .dot-green { fill: #10b981; }
       .title-text {
-        font-family: 'JetBrains Mono', 'Fira Code', monospace;
-        font-size: 11px;
+        font-family: 'JetBrains Mono', monospace;
+        font-size: 10px;
         fill: #475569;
         font-weight: 400;
       }
       .log {
-        font-family: 'JetBrains Mono', 'Fira Code', monospace;
-        font-size: 12.5px;
+        font-family: 'JetBrains Mono', monospace;
+        font-size: 11.5px;
         font-weight: 400;
       }
       .text-green { fill: #10b981; }
       .text-cyan { fill: #38bdf8; }
       .text-muted { fill: #64748b; }
-      .text-gold { fill: #facc15; }
-      .text-rose { fill: #fb7185; }
+      .text-gold { fill: #fbbf24; }
       .text-white { fill: #e2e8f0; }
-      .text-purple { fill: #c084fc; }
-      .cursor {
-        fill: #10b981;
-      }
+      .text-rose { fill: #fb7185; }
+      .cursor { fill: #10b981; }
     </style>
   </defs>
 
   <!-- Terminal Background -->
-  <rect width="850" height="280" class="term-bg" rx="10" />
-  <rect width="850" height="280" class="term-border" rx="10" />
+  <rect width="850" height="240" class="term-bg" rx="8" />
+  <rect width="850" height="240" class="term-border" rx="8" />
 
   <!-- Title Bar -->
-  <rect x="0" y="0" width="850" height="34" class="title-bar" rx="10" />
-  <rect x="0" y="24" width="850" height="10" class="title-bar" />
-  <line x1="0" y1="34" x2="850" y2="34" stroke="#1e293b" stroke-width="1" />
+  <rect x="0" y="0" width="850" height="32" class="title-bar" rx="8" />
+  <rect x="0" y="22" width="850" height="10" class="title-bar" />
+  <line x1="0" y1="32" x2="850" y2="32" stroke="#0f172a" stroke-width="1.5" />
 
   <!-- Window Dots -->
-  <circle cx="20" cy="17" r="5.5" class="dot-red" />
-  <circle cx="38" cy="17" r="5.5" class="dot-yellow" />
-  <circle cx="56" cy="17" r="5.5" class="dot-green" />
+  <circle cx="18" cy="16" r="5" class="dot-red" />
+  <circle cx="34" cy="16" r="5" class="dot-yellow" />
+  <circle cx="50" cy="16" r="5" class="dot-green" />
 
   <!-- Title Bar Text -->
-  <text x="425" y="21" class="title-text" text-anchor="middle">vishnu@skunkworks: ~/agent-systems — zsh</text>
+  <text x="425" y="20" class="title-text" text-anchor="middle">vishnu@dev ~ systems-check</text>
 
-  <!-- Line 1: Prompt -->
+  <!-- Line 1: Command prompt -->
   <g opacity="0">
-    <text x="20" y="62" class="log text-green">$</text>
-    <text x="34" y="62" class="log text-white">agent.eval("vishnu-p") --verbose</text>
-    <animate attributeName="opacity" from="0" to="1" begin="0.3s" dur="0.15s" fill="freeze" />
+    <text x="18" y="56" class="log text-green">$</text>
+    <text x="30" y="56" class="log text-white">whoami --verbose</text>
+    <animate attributeName="opacity" from="0" to="1" begin="0.3s" dur="0.1s" fill="freeze" />
   </g>
 
   <!-- Line 2 -->
   <g opacity="0">
-    <text x="20" y="86" class="log text-muted">[INFO]  Initializing evaluation sequence...</text>
-    <animate attributeName="opacity" from="0" to="1" begin="0.9s" dur="0.15s" fill="freeze" />
+    <text x="18" y="78" class="log text-muted">Resolving identity from commit history...</text>
+    <animate attributeName="opacity" from="0" to="1" begin="0.9s" dur="0.1s" fill="freeze" />
   </g>
 
   <!-- Line 3 -->
   <g opacity="0">
-    <text x="20" y="110" class="log text-cyan">[SYS]   domain      ···  Agentic AI &amp; Generative AI Systems</text>
-    <animate attributeName="opacity" from="0" to="1" begin="1.5s" dur="0.15s" fill="freeze" />
+    <text x="18" y="100" class="log text-cyan">[INIT]  AI Engineer specialising in Agentic AI &amp; GenAI systems</text>
+    <animate attributeName="opacity" from="0" to="1" begin="1.5s" dur="0.1s" fill="freeze" />
   </g>
 
   <!-- Line 4 -->
   <g opacity="0">
-    <text x="20" y="134" class="log text-cyan">[SYS]   objective   ···  Production-grade multi-agent orchestration</text>
-    <animate attributeName="opacity" from="0" to="1" begin="2.1s" dur="0.15s" fill="freeze" />
+    <text x="18" y="122" class="log text-cyan">[INIT]  Building production-grade multi-agent pipelines</text>
+    <animate attributeName="opacity" from="0" to="1" begin="2.1s" dur="0.1s" fill="freeze" />
   </g>
 
   <!-- Line 5 -->
   <g opacity="0">
-    <text x="20" y="158" class="log text-gold">[STACK] tools       ···  LangGraph · Neo4j · Qdrant · FastMCP · Docker</text>
-    <animate attributeName="opacity" from="0" to="1" begin="2.7s" dur="0.15s" fill="freeze" />
+    <text x="18" y="144" class="log text-gold">[SHIP]  LegalMind      ··· GraphRAG justice engine (Neo4j + Qdrant)</text>
+    <animate attributeName="opacity" from="0" to="1" begin="2.7s" dur="0.1s" fill="freeze" />
   </g>
 
   <!-- Line 6 -->
   <g opacity="0">
-    <text x="20" y="182" class="log text-gold">[STACK] runtime     ···  FastAPI · React · WebRTC · Socket.io</text>
-    <animate attributeName="opacity" from="0" to="1" begin="3.3s" dur="0.15s" fill="freeze" />
+    <text x="18" y="166" class="log text-gold">[SHIP]  Career-Pilot   ··· 4-agent LangGraph job-hunt pipeline</text>
+    <animate attributeName="opacity" from="0" to="1" begin="3.3s" dur="0.1s" fill="freeze" />
   </g>
 
   <!-- Line 7 -->
   <g opacity="0">
-    <text x="20" y="206" class="log text-purple">[SPEC]  status      ···  Open to AI Engineer roles</text>
-    <animate attributeName="opacity" from="0" to="1" begin="3.9s" dur="0.15s" fill="freeze" />
+    <text x="18" y="188" class="log text-gold">[SHIP]  GestureLearn   ··· WebRTC + MediaPipe real-time canvas</text>
+    <animate attributeName="opacity" from="0" to="1" begin="3.9s" dur="0.1s" fill="freeze" />
   </g>
 
-  <!-- Line 8 -->
+  <!-- Line 8: Final OK -->
   <g opacity="0">
-    <text x="20" y="230" class="log text-green">[OK]    All checks passed. Systems operational.</text>
-    <animate attributeName="opacity" from="0" to="1" begin="4.5s" dur="0.15s" fill="freeze" />
+    <text x="18" y="210" class="log text-green">[OK]    All systems deployed. Scroll down to explore. ↓</text>
+    <animate attributeName="opacity" from="0" to="1" begin="4.5s" dur="0.1s" fill="freeze" />
   </g>
 
   <!-- Blinking Cursor -->
-  <rect x="20" y="244" width="8" height="16" class="cursor" rx="1">
+  <rect x="18" y="220" width="7" height="13" class="cursor" rx="1">
     <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.5001;1" dur="1s" repeatCount="indefinite" />
-    <animate attributeName="y" values="62;62;86;86;110;110;134;134;158;158;182;182;206;206;230;230;244;244" keyTimes="0;0.05;0.1;0.16;0.21;0.27;0.32;0.38;0.43;0.49;0.54;0.6;0.65;0.71;0.76;0.82;0.87;1" dur="5.2s" fill="freeze" />
   </rect>
 
 </svg>

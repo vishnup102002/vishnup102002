@@ -7,6 +7,11 @@
   <img src="https://readme-typing-svg.demolab.com?font=Space+Grotesk&size=28&pause=1000&color=FACC15&center=true&vCenter=true&width=800&lines=AI+Engineer+%7C+Agentic+Architect;Building+production+grade+generative+ai+systems;Engineered+to+ship+real+solutions;" alt="Typing SVG" />
   <br />
   <br />
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=vishnup102002&theme=tokyonight&hide_border=true&background=0F172A&sideLabels=F8FAFC&ring=38BDF8&currStreakLabel=38BDF8" width="49%" alt="GitHub Streak" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=vishnup102002&layout=compact&theme=tokyonight&hide_border=true&bg_color=0F172A" width="45%" alt="Top Languages" />
+</p>
+
   
   [![System Status](https://img.shields.io/badge/System-Active-green?style=for-the-badge)](https://github.com/vishnup102002)
   [![Ready](https://img.shields.io/badge/Deployment--Readiness-98%25-yellow?style=for-the-badge)](https://github.com/vishnup102002)

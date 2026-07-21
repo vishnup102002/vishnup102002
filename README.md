@@ -4,24 +4,20 @@
 
 <br/><br/>
 
-<img src="https://readme-typing-svg.demolab.com?font=Space+Grotesk&size=26&pause=1200&color=FACC15&center=true&vCenter=true&width=800&lines=AI+Engineer+%7C+Agentic+Architect;Assembling+production-grade+generative+ai+systems;Brick+by+brick%2C+shipped+to+production." alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=22&pause=80&color=10B981&center=true&vCenter=true&width=850&repeat=true&lines=%24%2B+agent.init(%22Multi-Agent+GraphRAG%22)+--mode%3Dproduction;%24%2B+docker+compose+up+--build+--detach;%24%2B+langgraph+serve+--checkpoint-sqlite+--port+8080;%24%2B+mcp+deploy+tools%2F+--host+0.0.0.0+--verify" alt="Typing SVG" />
 
 <br/>
 
-```
-┌──────────────────────────────────────────────────────────────────┐
-│  SET No. 2026-AI  ·  MODEL: AGENTIC ARCHITECT  ·  PIECES: 10,000+ │
-├──────────────────────────────────────────────────────────────────┤
-│  [■] LangGraph Multi-Agent Loops      [■] GraphRAG (Neo4j+Qdrant) │
-│  [■] FastMCP Tool Integration         [■] Production Docker Ships │
-└──────────────────────────────────────────────────────────────────┘
-```
 
-<p align="center">
-  <a href="https://github.com/vishnup102002"><img src="https://img.shields.io/badge/SYSTEM-ACTIVE-10b981?style=for-the-badge&logo=gnubash&logoColor=white&labelColor=1e293b" /></a>
-  <a href="https://github.com/vishnup102002"><img src="https://img.shields.io/badge/BUILD-98%25_READY-facc15?style=for-the-badge&logoColor=black&labelColor=1e293b" /></a>
-  <a href="mailto:vishnup22102002@gmail.com"><img src="https://img.shields.io/badge/ROLES-OPEN_TO_AI_ENGINEER-f43f5e?style=for-the-badge&labelColor=1e293b" /></a>
-</p>
+
+```
+┌─────────────────────────────────────────────────────────────────────┐
+│  [SYS]  SYSTEM STATUS        ···  ACTIVE          uptime 99.97%   │
+│  [OK ]  BUILD INTEGRITY      ···  98% READY       last: 2h ago    │
+│  [RUN]  DEPLOYMENT TARGET    ···  DOCKER + HF SPACES              │
+│  [SPEC] ROLE                 ···  OPEN TO AI ENGINEER ROLES        │
+└─────────────────────────────────────────────────────────────────────┘
+```
 
 </div>
 
@@ -102,16 +98,28 @@ real data.
 * **Stack:** `LangGraph` • `Neo4j` • `Qdrant` • `Twilio API` • `Groq`
 * **Status:** Core LangGraph orchestration and hybrid retrieval (Neo4j + Qdrant) are functional. Currently debugging voice-to-voice Twilio pipeline.
 
+<div align="center">
+<img src="./assests/diagrams/legalmind-flow.svg" width="100%" alt="LegalMind Architecture Diagram" />
+</div>
+
 ### ✈️ [Career-Pilot](https://github.com/vishnup102002/Career-Pilot) — Autonomous Job-Hunting Agent
 * **Core Idea:** Stateful multi-agent system executing local semantic resume parsing, job matching, and automated applications via background scheduling.
 * **Stack:** `Python` • `LangGraph` • `FastAPI` • `MCP` • `Docker`
 * **Features:** 4-agent pipeline scoring job listings, FastMCP + Playwright server scraping, SendGrid notifications, and SQLite deduplication.
 * **Read More:** [Technical Architecture Teardown](https://gist.github.com/vishnup102002/a53a2aa0a17ce1d4d26f6e94c8adc3ca) • [Live Space Demo](https://huggingface.co/spaces/Vishnuporkulath/career-pilot)
 
+<div align="center">
+<img src="./assests/diagrams/career-pilot-flow.svg" width="100%" alt="Career-Pilot Architecture Diagram" />
+</div>
+
 ### 🎨 [GestureLearn](https://github.com/vishnup102002/gesturelearn) — Collaborative Real-Time Drawing Workspace
 * **Core Idea:** Interactive room workspace with WebRTC media streaming and low-latency Socket.io signaling. Recognizes 21 hand landmarks (via MediaPipe) for real-time air-gesture canvas sketching.
 * **Stack:** `React` • `WebRTC` • `Socket.io` • `MediaPipe` • `Node.js` • `WebAssembly`
 * **Read More:** [Live Demo](https://gesturelearn.vercel.app)
+
+<div align="center">
+<img src="./assests/diagrams/gesturelearn-flow.svg" width="100%" alt="GestureLearn Architecture Diagram" />
+</div>
 
 ### 🌊 [Kadal Aayus](https://github.com/vishnup102002/kadal_aayus) — Offline-First Sea Safety App
 * **Core Idea:** Cross-platform sea safety application with Firebase telemetry streaming, Mapbox tracking, 6-day weather matrix caching, and localized Malayalam TTS for offline voice safety alerts.

@@ -7,15 +7,23 @@ on:
     branches: [main]
   workflow_dispatch: {}
 
+# Explicitly grant write permissions to GITHUB_TOKEN to push to the output branch
+permissions:
+  contents: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
+    timeout-minutes: 5
 
-      - uses: actions/setup-node@v4
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js Runtime
+        uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: 22    # Updated from 20 to 22 (LTS) to clear deprecation warnings
 
       - name: Generate Lego grid from real contribution data
         env:

@@ -5,27 +5,7 @@
 
 ---
 
-## 🧱 Real-Time Build Grid
 
-Every brick below is **live** — it's rendered from my actual GitHub contribution
-calendar by a scheduled Action, not a static image. Grey studs = no commits
-that day; the greens escalate with real commit volume, same tiers GitHub
-itself uses. The minifig just walks the line for flavour — the colour is the
-real data.
-
-<div align="center">
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/vishnup102002/vishnup102002/output/lego-grid-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/vishnup102002/vishnup102002/output/lego-grid.svg">
-  <img alt="Lego contribution grid" src="https://raw.githubusercontent.com/vishnup102002/vishnup102002/output/lego-grid.svg" width="100%">
-</picture>
-</div>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=vishnup102002&layout=compact&theme=tokyonight&hide_border=true&bg_color=0F172A" width="45%" alt="Top Languages" />
-</p>
-
----
 
 ## 🔨 Currently Building
 

@@ -20,6 +20,58 @@
         font-size: 11px;
         fill: #10b981;
       }
+
+      /* Staggered brick animations */
+      @keyframes brickDrop {
+        0% {
+          opacity: 0;
+          transform: translateY(-40px) scale(0.8);
+        }
+        50% {
+          opacity: 1;
+        }
+        100% {
+          opacity: 1;
+          transform: translateY(0) scale(1);
+        }
+      }
+
+      @keyframes brickBounce {
+        0% {
+          transform: translateY(0);
+        }
+        25% {
+          transform: translateY(-8px);
+        }
+        50% {
+          transform: translateY(0);
+        }
+        100% {
+          transform: translateY(0);
+        }
+      }
+
+      .brick-1 { animation: brickDrop 0.6s ease-out 0s, brickBounce 2s ease-in-out 0.6s infinite; }
+      .brick-2 { animation: brickDrop 0.6s ease-out 0.1s, brickBounce 2s ease-in-out 0.7s infinite; }
+      .brick-3 { animation: brickDrop 0.6s ease-out 0.2s, brickBounce 2s ease-in-out 0.8s infinite; }
+      .brick-4 { animation: brickDrop 0.6s ease-out 0.3s, brickBounce 2s ease-in-out 0.9s infinite; }
+      .brick-5 { animation: brickDrop 0.6s ease-out 0.4s, brickBounce 2s ease-in-out 1s infinite; }
+      .brick-6 { animation: brickDrop 0.6s ease-out 0.5s, brickBounce 2s ease-in-out 1.1s infinite; }
+      .brick-7 { animation: brickDrop 0.6s ease-out 0.6s, brickBounce 2s ease-in-out 1.2s infinite; }
+
+      @keyframes fadeInUp {
+        0% {
+          opacity: 0;
+          transform: translateY(10px);
+        }
+        100% {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+
+      .subtitle-text { animation: fadeInUp 0.8s ease-out 1.2s both; }
+      .code-text { animation: fadeInUp 0.8s ease-out 1.4s both; }
     </style>
     
     <!-- Deep Skunkworks background -->
@@ -50,82 +102,96 @@
   <g transform="translate(197, 30)">
     
     <!-- V: Red (#f43f5e) -->
-    <g transform="translate(0, 0)">
-      <rect x="0" y="5" width="56" height="70" rx="6" fill="#0f172a" />
-      <rect x="0" y="0" width="56" height="70" rx="6" fill="#f43f5e" stroke="#0f172a" stroke-width="3.5" />
-      <rect x="16" y="-8" width="24" height="10" rx="2" fill="#f43f5e" stroke="#0f172a" stroke-width="3.5" />
-      <rect x="18" y="-2" width="20" height="4" fill="#f43f5e" />
-      <ellipse cx="28" cy="-8" rx="12" ry="4" fill="#fb7185" stroke="#0f172a" stroke-width="3.5" />
-      <text x="28" y="47" class="brick-text" font-size="38" fill="#ffffff" text-anchor="middle">V</text>
+    <g class="brick-1">
+      <g transform="translate(0, 0)">
+        <rect x="0" y="5" width="56" height="70" rx="6" fill="#0f172a" />
+        <rect x="0" y="0" width="56" height="70" rx="6" fill="#f43f5e" stroke="#0f172a" stroke-width="3.5" />
+        <rect x="16" y="-8" width="24" height="10" rx="2" fill="#f43f5e" stroke="#0f172a" stroke-width="3.5" />
+        <rect x="18" y="-2" width="20" height="4" fill="#f43f5e" />
+        <ellipse cx="28" cy="-8" rx="12" ry="4" fill="#fb7185" stroke="#0f172a" stroke-width="3.5" />
+        <text x="28" y="47" class="brick-text" font-size="38" fill="#ffffff" text-anchor="middle">V</text>
+      </g>
     </g>
 
     <!-- i: Green (#10b981) -->
-    <g transform="translate(64, 0)">
-      <rect x="0" y="5" width="56" height="70" rx="6" fill="#0f172a" />
-      <rect x="0" y="0" width="56" height="70" rx="6" fill="#10b981" stroke="#0f172a" stroke-width="3.5" />
-      <rect x="16" y="-8" width="24" height="10" rx="2" fill="#10b981" stroke="#0f172a" stroke-width="3.5" />
-      <rect x="18" y="-2" width="20" height="4" fill="#10b981" />
-      <ellipse cx="28" cy="-8" rx="12" ry="4" fill="#6ee7b7" stroke="#0f172a" stroke-width="3.5" />
-      <text x="28" y="47" class="brick-text" font-size="38" fill="#0f172a" text-anchor="middle">i</text>
+    <g class="brick-2">
+      <g transform="translate(64, 0)">
+        <rect x="0" y="5" width="56" height="70" rx="6" fill="#0f172a" />
+        <rect x="0" y="0" width="56" height="70" rx="6" fill="#10b981" stroke="#0f172a" stroke-width="3.5" />
+        <rect x="16" y="-8" width="24" height="10" rx="2" fill="#10b981" stroke="#0f172a" stroke-width="3.5" />
+        <rect x="18" y="-2" width="20" height="4" fill="#10b981" />
+        <ellipse cx="28" cy="-8" rx="12" ry="4" fill="#6ee7b7" stroke="#0f172a" stroke-width="3.5" />
+        <text x="28" y="47" class="brick-text" font-size="38" fill="#0f172a" text-anchor="middle">i</text>
+      </g>
     </g>
 
     <!-- s: Blue (#38bdf8) -->
-    <g transform="translate(128, 0)">
-      <rect x="0" y="5" width="56" height="70" rx="6" fill="#0f172a" />
-      <rect x="0" y="0" width="56" height="70" rx="6" fill="#0ea5e9" stroke="#0f172a" stroke-width="3.5" />
-      <rect x="16" y="-8" width="24" height="10" rx="2" fill="#0ea5e9" stroke="#0f172a" stroke-width="3.5" />
-      <rect x="18" y="-2" width="20" height="4" fill="#0ea5e9" />
-      <ellipse cx="28" cy="-8" rx="12" ry="4" fill="#38bdf8" stroke="#0f172a" stroke-width="3.5" />
-      <text x="28" y="47" class="brick-text" font-size="38" fill="#ffffff" text-anchor="middle">s</text>
+    <g class="brick-3">
+      <g transform="translate(128, 0)">
+        <rect x="0" y="5" width="56" height="70" rx="6" fill="#0f172a" />
+        <rect x="0" y="0" width="56" height="70" rx="6" fill="#0ea5e9" stroke="#0f172a" stroke-width="3.5" />
+        <rect x="16" y="-8" width="24" height="10" rx="2" fill="#0ea5e9" stroke="#0f172a" stroke-width="3.5" />
+        <rect x="18" y="-2" width="20" height="4" fill="#0ea5e9" />
+        <ellipse cx="28" cy="-8" rx="12" ry="4" fill="#38bdf8" stroke="#0f172a" stroke-width="3.5" />
+        <text x="28" y="47" class="brick-text" font-size="38" fill="#ffffff" text-anchor="middle">s</text>
+      </g>
     </g>
 
     <!-- h: Blue (#0ea5e9) -->
-    <g transform="translate(192, 0)">
-      <rect x="0" y="5" width="56" height="70" rx="6" fill="#0f172a" />
-      <rect x="0" y="0" width="56" height="70" rx="6" fill="#0ea5e9" stroke="#0f172a" stroke-width="3.5" />
-      <rect x="16" y="-8" width="24" height="10" rx="2" fill="#0ea5e9" stroke="#0f172a" stroke-width="3.5" />
-      <rect x="18" y="-2" width="20" height="4" fill="#0ea5e9" />
-      <ellipse cx="28" cy="-8" rx="12" ry="4" fill="#38bdf8" stroke="#0f172a" stroke-width="3.5" />
-      <text x="28" y="47" class="brick-text" font-size="38" fill="#ffffff" text-anchor="middle">h</text>
+    <g class="brick-4">
+      <g transform="translate(192, 0)">
+        <rect x="0" y="5" width="56" height="70" rx="6" fill="#0f172a" />
+        <rect x="0" y="0" width="56" height="70" rx="6" fill="#0ea5e9" stroke="#0f172a" stroke-width="3.5" />
+        <rect x="16" y="-8" width="24" height="10" rx="2" fill="#0ea5e9" stroke="#0f172a" stroke-width="3.5" />
+        <rect x="18" y="-2" width="20" height="4" fill="#0ea5e9" />
+        <ellipse cx="28" cy="-8" rx="12" ry="4" fill="#38bdf8" stroke="#0f172a" stroke-width="3.5" />
+        <text x="28" y="47" class="brick-text" font-size="38" fill="#ffffff" text-anchor="middle">h</text>
+      </g>
     </g>
 
     <!-- n: Red (#f43f5e) -->
-    <g transform="translate(256, 0)">
-      <rect x="0" y="5" width="56" height="70" rx="6" fill="#0f172a" />
-      <rect x="0" y="0" width="56" height="70" rx="6" fill="#f43f5e" stroke="#0f172a" stroke-width="3.5" />
-      <rect x="16" y="-8" width="24" height="10" rx="2" fill="#f43f5e" stroke="#0f172a" stroke-width="3.5" />
-      <rect x="18" y="-2" width="20" height="4" fill="#f43f5e" />
-      <ellipse cx="28" cy="-8" rx="12" ry="4" fill="#fb7185" stroke="#0f172a" stroke-width="3.5" />
-      <text x="28" y="47" class="brick-text" font-size="38" fill="#ffffff" text-anchor="middle">n</text>
+    <g class="brick-5">
+      <g transform="translate(256, 0)">
+        <rect x="0" y="5" width="56" height="70" rx="6" fill="#0f172a" />
+        <rect x="0" y="0" width="56" height="70" rx="6" fill="#f43f5e" stroke="#0f172a" stroke-width="3.5" />
+        <rect x="16" y="-8" width="24" height="10" rx="2" fill="#f43f5e" stroke="#0f172a" stroke-width="3.5" />
+        <rect x="18" y="-2" width="20" height="4" fill="#f43f5e" />
+        <ellipse cx="28" cy="-8" rx="12" ry="4" fill="#fb7185" stroke="#0f172a" stroke-width="3.5" />
+        <text x="28" y="47" class="brick-text" font-size="38" fill="#ffffff" text-anchor="middle">n</text>
+      </g>
     </g>
 
     <!-- u: Green (#10b981) -->
-    <g transform="translate(320, 0)">
-      <rect x="0" y="5" width="56" height="70" rx="6" fill="#0f172a" />
-      <rect x="0" y="0" width="56" height="70" rx="6" fill="#10b981" stroke="#0f172a" stroke-width="3.5" />
-      <rect x="16" y="-8" width="24" height="10" rx="2" fill="#10b981" stroke="#0f172a" stroke-width="3.5" />
-      <rect x="18" y="-2" width="20" height="4" fill="#10b981" />
-      <ellipse cx="28" cy="-8" rx="12" ry="4" fill="#6ee7b7" stroke="#0f172a" stroke-width="3.5" />
-      <text x="28" y="47" class="brick-text" font-size="38" fill="#0f172a" text-anchor="middle">u</text>
+    <g class="brick-6">
+      <g transform="translate(320, 0)">
+        <rect x="0" y="5" width="56" height="70" rx="6" fill="#0f172a" />
+        <rect x="0" y="0" width="56" height="70" rx="6" fill="#10b981" stroke="#0f172a" stroke-width="3.5" />
+        <rect x="16" y="-8" width="24" height="10" rx="2" fill="#10b981" stroke="#0f172a" stroke-width="3.5" />
+        <rect x="18" y="-2" width="20" height="4" fill="#10b981" />
+        <ellipse cx="28" cy="-8" rx="12" ry="4" fill="#6ee7b7" stroke="#0f172a" stroke-width="3.5" />
+        <text x="28" y="47" class="brick-text" font-size="38" fill="#0f172a" text-anchor="middle">u</text>
+      </g>
     </g>
 
     <!-- P: Red (#f43f5e) — after space -->
-    <g transform="translate(400, 0)">
-      <rect x="0" y="5" width="56" height="70" rx="6" fill="#0f172a" />
-      <rect x="0" y="0" width="56" height="70" rx="6" fill="#f43f5e" stroke="#0f172a" stroke-width="3.5" />
-      <rect x="16" y="-8" width="24" height="10" rx="2" fill="#f43f5e" stroke="#0f172a" stroke-width="3.5" />
-      <rect x="18" y="-2" width="20" height="4" fill="#f43f5e" />
-      <ellipse cx="28" cy="-8" rx="12" ry="4" fill="#fb7185" stroke="#0f172a" stroke-width="3.5" />
-      <text x="28" y="47" class="brick-text" font-size="38" fill="#ffffff" text-anchor="middle">P</text>
+    <g class="brick-7">
+      <g transform="translate(400, 0)">
+        <rect x="0" y="5" width="56" height="70" rx="6" fill="#0f172a" />
+        <rect x="0" y="0" width="56" height="70" rx="6" fill="#f43f5e" stroke="#0f172a" stroke-width="3.5" />
+        <rect x="16" y="-8" width="24" height="10" rx="2" fill="#f43f5e" stroke="#0f172a" stroke-width="3.5" />
+        <rect x="18" y="-2" width="20" height="4" fill="#f43f5e" />
+        <ellipse cx="28" cy="-8" rx="12" ry="4" fill="#fb7185" stroke="#0f172a" stroke-width="3.5" />
+        <text x="28" y="47" class="brick-text" font-size="38" fill="#ffffff" text-anchor="middle">P</text>
+      </g>
     </g>
 
   </g>
 
   <!-- Subtitle -->
-  <text x="425" y="143" class="subtitle" text-anchor="middle">AI ENGINEER &amp; AGENTIC SYSTEMS BUILDER</text>
+  <text x="425" y="143" class="subtitle subtitle-text" text-anchor="middle">AI ENGINEER &amp; AGENTIC SYSTEMS BUILDER</text>
 
   <!-- Code Line — terminal green -->
-  <text x="425" y="168" class="code-line" text-anchor="middle">&gt; I turn ideas into production AI systems.</text>
+  <text x="425" y="168" class="code-line code-text" text-anchor="middle">&gt; I turn ideas into production AI systems.</text>
 
   <!-- Pulsing green dot -->
   <circle cx="280" cy="165" r="3" fill="#10b981" filter="url(#glow-green)">

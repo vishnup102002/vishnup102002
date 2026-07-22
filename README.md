@@ -122,11 +122,10 @@
 
 ---
 
-## 📈 Real-Time Activity & Stats
+## 📈 Activity & Language Breakdown
 
 <p align="center">
-  <img src="https://github-readme-stats-anuraghazra1.vercel.app/api?username=vishnup102002&show_icons=true&theme=react&hide_border=true&count_private=true" width="49%" alt="Vishnu's GitHub Stats" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=vishnup102002&theme=react&hide_border=true&stroke=00C853" width="49%" alt="Vishnu's Contribution Streak" />
+  <img src="https://github-readme-stats-anuraghazra1.vercel.app/api/top-langs/?username=vishnup102002&layout=compact&theme=react&hide_border=true" width="55%" alt="Top Languages" />
 </p>
 
 <p align="center">

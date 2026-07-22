@@ -61,23 +61,7 @@
       <feDropShadow dx="0" dy="4" stdDeviation="3" flood-opacity="0.4" flood-color="#000000" />
     </filter>
 
-    <!-- Knob gradient for depth -->
-    <radialGradient id="knob-gradient-red" cx="35%" cy="35%">
-      <stop offset="0%" stop-color="#fb7185" />
-      <stop offset="100%" stop-color="#be123c" />
-    </radialGradient>
-
-    <radialGradient id="knob-gradient-green" cx="35%" cy="35%">
-      <stop offset="0%" stop-color="#6ee7b7" />
-      <stop offset="100%" stop-color="#047857" />
-    </radialGradient>
-
-    <radialGradient id="knob-gradient-blue" cx="35%" cy="35%">
-      <stop offset="0%" stop-color="#38bdf8" />
-      <stop offset="100%" stop-color="#0369a1" />
-    </radialGradient>
-
-    <!-- Brick face gradients for depth -->
+    <!-- Brick face gradients for premium depth -->
     <linearGradient id="brick-red" x1="0%" y1="0%" x2="0%" y2="100%">
       <stop offset="0%" stop-color="#f43f5e" />
       <stop offset="100%" stop-color="#e11d48" />
@@ -105,150 +89,92 @@
   <circle cx="650" cy="100" r="110" fill="#38bdf8" opacity="0.05" filter="url(#blur-filter)"/>
   <circle cx="425" cy="140" r="80" fill="#f43f5e" opacity="0.04" filter="url(#blur-filter)"/>
 
-  <!-- The Premium Lego Bricks (translated to X=180, Y=25) -->
-  <g transform="translate(180, 25)">
+  <!-- Premium Lego-Style Boxes (No Knobs) (translated to X=170, Y=30) -->
+  <g transform="translate(170, 30)">
     
-    <!-- V: Red (#f43f5e) - Premium Lego -->
+    <!-- V: Red (#f43f5e) -->
     <g filter="url(#brick-shadow)">
       <g transform="translate(0, 0)">
-        <!-- Brick face -->
-        <rect x="0" y="8" width="60" height="68" rx="4" fill="url(#brick-red)" stroke="#0f172a" stroke-width="2" />
+        <!-- Main brick face -->
+        <rect x="0" y="0" width="65" height="75" rx="5" fill="url(#brick-red)" stroke="#0f172a" stroke-width="2.5" />
         
         <!-- Top edge highlight for 3D depth -->
-        <rect x="0" y="8" width="60" height="3" fill="rgba(255, 255, 255, 0.15)" rx="4" />
+        <rect x="0" y="0" width="65" height="4" fill="rgba(255, 255, 255, 0.2)" rx="5" />
         
-        <!-- Side shadow for depth -->
-        <polygon points="60,8 63,5 63,73 60,76" fill="rgba(0, 0, 0, 0.3)" />
+        <!-- Right side shadow for perspective -->
+        <polygon points="65,0 68,0 68,75 65,75" fill="rgba(0, 0, 0, 0.25)" />
         
-        <!-- Premium sleek knobs (2 knobs instead of 4 for cleaner look) -->
-        <!-- Left knob -->
-        <circle cx="18" cy="-2" r="8" fill="url(#knob-gradient-red)" stroke="rgba(0, 0, 0, 0.3)" stroke-width="1" />
-        <circle cx="18" cy="-2" r="7" fill="none" stroke="rgba(255, 255, 255, 0.2)" stroke-width="1" />
-        <!-- Inner highlight on knob -->
-        <circle cx="16" cy="-4" r="2" fill="rgba(255, 255, 255, 0.4)" />
-        
-        <!-- Right knob -->
-        <circle cx="42" cy="-2" r="8" fill="url(#knob-gradient-red)" stroke="rgba(0, 0, 0, 0.3)" stroke-width="1" />
-        <circle cx="42" cy="-2" r="7" fill="none" stroke="rgba(255, 255, 255, 0.2)" stroke-width="1" />
-        <!-- Inner highlight on knob -->
-        <circle cx="40" cy="-4" r="2" fill="rgba(255, 255, 255, 0.4)" />
+        <!-- Bottom shadow for depth -->
+        <polygon points="0,75 65,75 68,78 3,78" fill="rgba(0, 0, 0, 0.2)" />
         
         <!-- Character -->
-        <text x="30" y="52" class="brick-text" font-size="40" fill="#ffffff" text-anchor="middle">V</text>
+        <text x="32.5" y="52" class="brick-text" font-size="42" fill="#ffffff" text-anchor="middle">V</text>
       </g>
     </g>
 
     <!-- i: Green (#10b981) -->
     <g filter="url(#brick-shadow)">
-      <g transform="translate(68, 0)">
-        <rect x="0" y="8" width="60" height="68" rx="4" fill="url(#brick-green)" stroke="#0f172a" stroke-width="2" />
-        <rect x="0" y="8" width="60" height="3" fill="rgba(255, 255, 255, 0.15)" rx="4" />
-        <polygon points="60,8 63,5 63,73 60,76" fill="rgba(0, 0, 0, 0.3)" />
-        
-        <circle cx="18" cy="-2" r="8" fill="url(#knob-gradient-green)" stroke="rgba(0, 0, 0, 0.3)" stroke-width="1" />
-        <circle cx="18" cy="-2" r="7" fill="none" stroke="rgba(255, 255, 255, 0.2)" stroke-width="1" />
-        <circle cx="16" cy="-4" r="2" fill="rgba(255, 255, 255, 0.4)" />
-        
-        <circle cx="42" cy="-2" r="8" fill="url(#knob-gradient-green)" stroke="rgba(0, 0, 0, 0.3)" stroke-width="1" />
-        <circle cx="42" cy="-2" r="7" fill="none" stroke="rgba(255, 255, 255, 0.2)" stroke-width="1" />
-        <circle cx="40" cy="-4" r="2" fill="rgba(255, 255, 255, 0.4)" />
-        
-        <text x="30" y="52" class="brick-text" font-size="40" fill="#0f172a" text-anchor="middle">i</text>
+      <g transform="translate(75, 0)">
+        <rect x="0" y="0" width="65" height="75" rx="5" fill="url(#brick-green)" stroke="#0f172a" stroke-width="2.5" />
+        <rect x="0" y="0" width="65" height="4" fill="rgba(255, 255, 255, 0.2)" rx="5" />
+        <polygon points="65,0 68,0 68,75 65,75" fill="rgba(0, 0, 0, 0.25)" />
+        <polygon points="0,75 65,75 68,78 3,78" fill="rgba(0, 0, 0, 0.2)" />
+        <text x="32.5" y="52" class="brick-text" font-size="42" fill="#0f172a" text-anchor="middle">i</text>
       </g>
     </g>
 
-    <!-- s: Blue (#38bdf8) -->
+    <!-- s: Blue (#0ea5e9) -->
     <g filter="url(#brick-shadow)">
-      <g transform="translate(136, 0)">
-        <rect x="0" y="8" width="60" height="68" rx="4" fill="url(#brick-blue)" stroke="#0f172a" stroke-width="2" />
-        <rect x="0" y="8" width="60" height="3" fill="rgba(255, 255, 255, 0.15)" rx="4" />
-        <polygon points="60,8 63,5 63,73 60,76" fill="rgba(0, 0, 0, 0.3)" />
-        
-        <circle cx="18" cy="-2" r="8" fill="url(#knob-gradient-blue)" stroke="rgba(0, 0, 0, 0.3)" stroke-width="1" />
-        <circle cx="18" cy="-2" r="7" fill="none" stroke="rgba(255, 255, 255, 0.2)" stroke-width="1" />
-        <circle cx="16" cy="-4" r="2" fill="rgba(255, 255, 255, 0.4)" />
-        
-        <circle cx="42" cy="-2" r="8" fill="url(#knob-gradient-blue)" stroke="rgba(0, 0, 0, 0.3)" stroke-width="1" />
-        <circle cx="42" cy="-2" r="7" fill="none" stroke="rgba(255, 255, 255, 0.2)" stroke-width="1" />
-        <circle cx="40" cy="-4" r="2" fill="rgba(255, 255, 255, 0.4)" />
-        
-        <text x="30" y="52" class="brick-text" font-size="40" fill="#ffffff" text-anchor="middle">s</text>
+      <g transform="translate(150, 0)">
+        <rect x="0" y="0" width="65" height="75" rx="5" fill="url(#brick-blue)" stroke="#0f172a" stroke-width="2.5" />
+        <rect x="0" y="0" width="65" height="4" fill="rgba(255, 255, 255, 0.2)" rx="5" />
+        <polygon points="65,0 68,0 68,75 65,75" fill="rgba(0, 0, 0, 0.25)" />
+        <polygon points="0,75 65,75 68,78 3,78" fill="rgba(0, 0, 0, 0.2)" />
+        <text x="32.5" y="52" class="brick-text" font-size="42" fill="#ffffff" text-anchor="middle">s</text>
       </g>
     </g>
 
     <!-- h: Blue (#0ea5e9) -->
     <g filter="url(#brick-shadow)">
-      <g transform="translate(204, 0)">
-        <rect x="0" y="8" width="60" height="68" rx="4" fill="url(#brick-blue)" stroke="#0f172a" stroke-width="2" />
-        <rect x="0" y="8" width="60" height="3" fill="rgba(255, 255, 255, 0.15)" rx="4" />
-        <polygon points="60,8 63,5 63,73 60,76" fill="rgba(0, 0, 0, 0.3)" />
-        
-        <circle cx="18" cy="-2" r="8" fill="url(#knob-gradient-blue)" stroke="rgba(0, 0, 0, 0.3)" stroke-width="1" />
-        <circle cx="18" cy="-2" r="7" fill="none" stroke="rgba(255, 255, 255, 0.2)" stroke-width="1" />
-        <circle cx="16" cy="-4" r="2" fill="rgba(255, 255, 255, 0.4)" />
-        
-        <circle cx="42" cy="-2" r="8" fill="url(#knob-gradient-blue)" stroke="rgba(0, 0, 0, 0.3)" stroke-width="1" />
-        <circle cx="42" cy="-2" r="7" fill="none" stroke="rgba(255, 255, 255, 0.2)" stroke-width="1" />
-        <circle cx="40" cy="-4" r="2" fill="rgba(255, 255, 255, 0.4)" />
-        
-        <text x="30" y="52" class="brick-text" font-size="40" fill="#ffffff" text-anchor="middle">h</text>
+      <g transform="translate(225, 0)">
+        <rect x="0" y="0" width="65" height="75" rx="5" fill="url(#brick-blue)" stroke="#0f172a" stroke-width="2.5" />
+        <rect x="0" y="0" width="65" height="4" fill="rgba(255, 255, 255, 0.2)" rx="5" />
+        <polygon points="65,0 68,0 68,75 65,75" fill="rgba(0, 0, 0, 0.25)" />
+        <polygon points="0,75 65,75 68,78 3,78" fill="rgba(0, 0, 0, 0.2)" />
+        <text x="32.5" y="52" class="brick-text" font-size="42" fill="#ffffff" text-anchor="middle">h</text>
       </g>
     </g>
 
     <!-- n: Red (#f43f5e) -->
     <g filter="url(#brick-shadow)">
-      <g transform="translate(272, 0)">
-        <rect x="0" y="8" width="60" height="68" rx="4" fill="url(#brick-red)" stroke="#0f172a" stroke-width="2" />
-        <rect x="0" y="8" width="60" height="3" fill="rgba(255, 255, 255, 0.15)" rx="4" />
-        <polygon points="60,8 63,5 63,73 60,76" fill="rgba(0, 0, 0, 0.3)" />
-        
-        <circle cx="18" cy="-2" r="8" fill="url(#knob-gradient-red)" stroke="rgba(0, 0, 0, 0.3)" stroke-width="1" />
-        <circle cx="18" cy="-2" r="7" fill="none" stroke="rgba(255, 255, 255, 0.2)" stroke-width="1" />
-        <circle cx="16" cy="-4" r="2" fill="rgba(255, 255, 255, 0.4)" />
-        
-        <circle cx="42" cy="-2" r="8" fill="url(#knob-gradient-red)" stroke="rgba(0, 0, 0, 0.3)" stroke-width="1" />
-        <circle cx="42" cy="-2" r="7" fill="none" stroke="rgba(255, 255, 255, 0.2)" stroke-width="1" />
-        <circle cx="40" cy="-4" r="2" fill="rgba(255, 255, 255, 0.4)" />
-        
-        <text x="30" y="52" class="brick-text" font-size="40" fill="#ffffff" text-anchor="middle">n</text>
+      <g transform="translate(300, 0)">
+        <rect x="0" y="0" width="65" height="75" rx="5" fill="url(#brick-red)" stroke="#0f172a" stroke-width="2.5" />
+        <rect x="0" y="0" width="65" height="4" fill="rgba(255, 255, 255, 0.2)" rx="5" />
+        <polygon points="65,0 68,0 68,75 65,75" fill="rgba(0, 0, 0, 0.25)" />
+        <polygon points="0,75 65,75 68,78 3,78" fill="rgba(0, 0, 0, 0.2)" />
+        <text x="32.5" y="52" class="brick-text" font-size="42" fill="#ffffff" text-anchor="middle">n</text>
       </g>
     </g>
 
     <!-- u: Green (#10b981) -->
     <g filter="url(#brick-shadow)">
-      <g transform="translate(340, 0)">
-        <rect x="0" y="8" width="60" height="68" rx="4" fill="url(#brick-green)" stroke="#0f172a" stroke-width="2" />
-        <rect x="0" y="8" width="60" height="3" fill="rgba(255, 255, 255, 0.15)" rx="4" />
-        <polygon points="60,8 63,5 63,73 60,76" fill="rgba(0, 0, 0, 0.3)" />
-        
-        <circle cx="18" cy="-2" r="8" fill="url(#knob-gradient-green)" stroke="rgba(0, 0, 0, 0.3)" stroke-width="1" />
-        <circle cx="18" cy="-2" r="7" fill="none" stroke="rgba(255, 255, 255, 0.2)" stroke-width="1" />
-        <circle cx="16" cy="-4" r="2" fill="rgba(255, 255, 255, 0.4)" />
-        
-        <circle cx="42" cy="-2" r="8" fill="url(#knob-gradient-green)" stroke="rgba(0, 0, 0, 0.3)" stroke-width="1" />
-        <circle cx="42" cy="-2" r="7" fill="none" stroke="rgba(255, 255, 255, 0.2)" stroke-width="1" />
-        <circle cx="40" cy="-4" r="2" fill="rgba(255, 255, 255, 0.4)" />
-        
-        <text x="30" y="52" class="brick-text" font-size="40" fill="#0f172a" text-anchor="middle">u</text>
+      <g transform="translate(375, 0)">
+        <rect x="0" y="0" width="65" height="75" rx="5" fill="url(#brick-green)" stroke="#0f172a" stroke-width="2.5" />
+        <rect x="0" y="0" width="65" height="4" fill="rgba(255, 255, 255, 0.2)" rx="5" />
+        <polygon points="65,0 68,0 68,75 65,75" fill="rgba(0, 0, 0, 0.25)" />
+        <polygon points="0,75 65,75 68,78 3,78" fill="rgba(0, 0, 0, 0.2)" />
+        <text x="32.5" y="52" class="brick-text" font-size="42" fill="#0f172a" text-anchor="middle">u</text>
       </g>
     </g>
 
     <!-- P: Red (#f43f5e) -->
     <g filter="url(#brick-shadow)">
-      <g transform="translate(428, 0)">
-        <rect x="0" y="8" width="60" height="68" rx="4" fill="url(#brick-red)" stroke="#0f172a" stroke-width="2" />
-        <rect x="0" y="8" width="60" height="3" fill="rgba(255, 255, 255, 0.15)" rx="4" />
-        <polygon points="60,8 63,5 63,73 60,76" fill="rgba(0, 0, 0, 0.3)" />
-        
-        <circle cx="18" cy="-2" r="8" fill="url(#knob-gradient-red)" stroke="rgba(0, 0, 0, 0.3)" stroke-width="1" />
-        <circle cx="18" cy="-2" r="7" fill="none" stroke="rgba(255, 255, 255, 0.2)" stroke-width="1" />
-        <circle cx="16" cy="-4" r="2" fill="rgba(255, 255, 255, 0.4)" />
-        
-        <circle cx="42" cy="-2" r="8" fill="url(#knob-gradient-red)" stroke="rgba(0, 0, 0, 0.3)" stroke-width="1" />
-        <circle cx="42" cy="-2" r="7" fill="none" stroke="rgba(255, 255, 255, 0.2)" stroke-width="1" />
-        <circle cx="40" cy="-4" r="2" fill="rgba(255, 255, 255, 0.4)" />
-        
-        <text x="30" y="52" class="brick-text" font-size="40" fill="#ffffff" text-anchor="middle">P</text>
+      <g transform="translate(465, 0)">
+        <rect x="0" y="0" width="65" height="75" rx="5" fill="url(#brick-red)" stroke="#0f172a" stroke-width="2.5" />
+        <rect x="0" y="0" width="65" height="4" fill="rgba(255, 255, 255, 0.2)" rx="5" />
+        <polygon points="65,0 68,0 68,75 65,75" fill="rgba(0, 0, 0, 0.25)" />
+        <polygon points="0,75 65,75 68,78 3,78" fill="rgba(0, 0, 0, 0.2)" />
+        <text x="32.5" y="52" class="brick-text" font-size="42" fill="#ffffff" text-anchor="middle">P</text>
       </g>
     </g>
 

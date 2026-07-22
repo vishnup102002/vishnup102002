@@ -20,13 +20,13 @@
 > [!IMPORTANT]
 > ### 📐 Engineering Manifesto — Instructions Included
 >
-> **Design for Failure:** I treat production as inherently unstable. Across all my systems, I build in modular fallbacks — whether it's multi-tier scraping for agents or offline telemetry caching for WhatsApp bots.
+> **Design for Failure:** I treat production as inherently unstable. Across all my systems, I build in modular fallbacks — whether it's multi-tier scraping for Career-Pilot's job matching or DXF parser fallback chains in ReAct reasoning loops.
 >
-> **State-Aware Execution:** I prioritize data integrity. From maintaining session states in WhatsApp bots to tracking long-horizon search tasks, I implement checkpointing so systems recover from interruptions.
+> **State-Aware Execution:** I prioritize data integrity. From LegalMind's Neo4j state management to GestureLearn's WebRTC session tracking and Kadal Aayus's offline telemetry caching, I implement checkpointing so systems recover from interruptions.
 >
-> **Objective Validation:** I favor quantifiable metrics over manual testing. Whether it's an LLM-as-a-Judge scoring an agent's reasoning, or unit tests validating geometric algorithms in vision pipelines.
+> **Objective Validation:** I favor quantifiable metrics over manual testing. Whether it's an LLM-as-a-Judge scoring Career-Pilot agent reasoning, geometric algorithms in vision pipelines, or sensor fusion validation in maritime safety systems.
 >
-> **Always Ship:** My ultimate metric is deployment. I prioritize getting a functional build into the user's hands over endless polishing — every system is designed to be "shippable" from day one.
+> **Always Ship:** My ultimate metric is deployment. I prioritize getting functional builds into production — from HuggingFace Spaces deployments to Firebase-backed mobile apps — over endless polishing.
 
 ---
 
@@ -125,15 +125,15 @@
 ## 📈 Real-Time Monthly Activity
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=vishnup102002&show_icons=true&theme=react&hide_border=true&count_private=true" width="100%" alt="Vishnu's GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api?username=vishnup102002&show_icons=true&theme=react&hide_border=true&count_private=true" alt="Vishnu's GitHub Stats" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=vishnup102002&theme=react&hide_border=true&stroke=00C853" width="100%" alt="Vishnu's Contribution Streak" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=vishnup102002&theme=react&hide_border=true&stroke=00C853" alt="Vishnu's Contribution Streak" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=vishnup102002&theme=react-dark&area=true&hide_border=true" width="100%" alt="Vishnu's GitHub Activity Graph" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=vishnup102002&theme=react-dark&area=true&hide_border=true&type=wdy" alt="Vishnu's GitHub Activity Graph" />
 </p>
 
 ---

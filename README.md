@@ -124,11 +124,12 @@
 
 ## 📈 Real-Time Monthly Activity
 
-<img src="https://github-readme-stats.vercel.app/api?username=vishnup102002&show_icons=true&theme=react&hide_border=true&count_private=true" alt="Vishnu's GitHub Stats" />
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=vishnup102002&theme=react&hide_border=true&stroke=00C853" alt="Vishnu's Contribution Streak" />
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=vishnup102002&theme=react-dark&area=true&hide_border=true&months=12" alt="Vishnu's Monthly Activity Graph" />
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=vishnup102002&show_icons=true&theme=react&hide_border=true&count_private=true" width="49%" alt="Vishnu's GitHub Stats" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=vishnup102002&theme=react&hide_border=true&stroke=00C853" width="49%" alt="Vishnu's Contribution Streak" />
+  <br/><br/>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=vishnup102002&theme=react-dark&area=true&hide_border=true&months=12" width="100%" alt="Vishnu's Monthly Activity Graph" />
+</div>
 
 ---
 

@@ -20,11 +20,11 @@
 > [!IMPORTANT]
 > ### 📐 Engineering Manifesto — Instructions Included
 >
-> **Design for Failure:** I treat production as inherently unstable. Across all my systems, I build in modular fallbacks — whether it's multi-tier scraping for agents or offline telemetry caching for mobile apps.
+> **Design for Failure:** I treat production as inherently unstable. Across all my systems, I build in modular fallbacks — whether it's multi-tier scraping for agents or offline telemetry caching for WhatsApp bots.
 >
-> **State-Aware Execution:** I prioritize data integrity. From maintaining session states in WhatsApp bots to tracking long-horizon search tasks, I implement checkpointing so systems recover from interrupted states.
+> **State-Aware Execution:** I prioritize data integrity. From maintaining session states in WhatsApp bots to tracking long-horizon search tasks, I implement checkpointing so systems recover from interruptions.
 >
-> **Objective Validation:** I favor quantifiable metrics over manual testing. Whether it's an LLM-as-a-Judge scoring an agent's reasoning, or unit tests validating geometric algorithms in vision pipelines, I make my systems verifiable.
+> **Objective Validation:** I favor quantifiable metrics over manual testing. Whether it's an LLM-as-a-Judge scoring an agent's reasoning, or unit tests validating geometric algorithms in vision pipelines.
 >
 > **Always Ship:** My ultimate metric is deployment. I prioritize getting a functional build into the user's hands over endless polishing — every system is designed to be "shippable" from day one.
 
@@ -122,7 +122,15 @@
 
 ---
 
-## 📈 Activity Graph
+## 📈 Real-Time Monthly Activity
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=vishnup102002&show_icons=true&theme=react&hide_border=true&count_private=true" width="100%" alt="Vishnu's GitHub Stats" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=vishnup102002&theme=react&hide_border=true&stroke=00C853" width="100%" alt="Vishnu's Contribution Streak" />
+</p>
 
 <p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=vishnup102002&theme=react-dark&area=true&hide_border=true" width="100%" alt="Vishnu's GitHub Activity Graph" />

@@ -113,12 +113,13 @@
 
 ## 📜 Certifications
 
-* **AWS Generative AI and AI Agents Professional** — *Coursera, 2026*
-* **IBM Generative AI & AI Agents Specialist** — *Coursera, 2026*
-* **IBM Fundamentals of AI Agents Using RAG & LangChain** — *Coursera, 2026*
-* **IBM Python for Data Science & Development** — *Coursera, 2026*
-* **Data Structures and Algorithms** — *NPTEL, IIT Kanpur, 2025*
-* **Python – Web Development Expert** — *NACTET, 2024*
+* **AWS Generative AI and AI Agents Professional** – *Coursera, 2026* | [Verify Credential](#your-link)
+* **IBM Generative AI & AI Agents Specialist** – *Coursera, 2026* | [Verify Credential](#your-link)
+* **IBM Fundamentals of AI Agents Using RAG & LangChain** – *Coursera, 2026* | [Verify Credential](#your-link)
+* **Data Structures and Algorithms** – *NPTEL, IIT Kanpur, 2025* | [Verify Credential](#your-link)
+* **IBM Python for Data Science & Development** – *Coursera, 2026* | [Verify Credential](#your-link)
+* **Python – Web Development Expert** – *NACTET, 2024* | [Verify Credential](#your-link)
+
 
 ---
 

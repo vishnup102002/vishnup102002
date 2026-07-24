@@ -115,8 +115,11 @@
 
 | Credential | Issuing Organization | Verification |
 | :--- | :--- | :--- |
-| **Generative AI & AI Agents Professional** | ![AWS](https://shields.io) | [Verify](#) |
-| **Generative AI & AI Agents Specialist** | ![IBM](https://shields.io) | [Verify](#) |
+| **Generative AI and AI Agents Professional** | ![AWS]([https://shields.io](https://img.icons8.com/?size=100&id=33039&format=png&color=000000) via ![Coursera](https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/coursera.png) | [Verify](https://www.coursera.org/account/accomplishments/specialization/5BCZ5ML6LEU4) |
+| Certificate | Issuer / Platform | Verification |
+| :--- | :---: | :---: |
+| **IBM Generative AI & AI Agents Specialist** | ![IBM](https://img.shields.io/badge/IBM-052FAD?style=flat&logo=ibm&logoColor=white) via ![Coursera](https://img.shields.io/badge/Coursera-0056D2?style=flat&logo=coursera&logoColor=white) | [Verify](https://www.coursera.org/account/accomplishments/specialization/YOUR_ID_HERE) |
+
 | **AI Agents Using RAG & LangChain** | ![IBM](https://shields.io) | [Verify](#) |
 | **Data Structures & Algorithms** | **NPTEL (IIT Kanpur)** | [Verify](#) |
 

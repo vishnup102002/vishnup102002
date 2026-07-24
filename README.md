@@ -111,17 +111,17 @@
 
 ---
 
-## 📜 Certifications
+### 📜 Certifications
 
-| Credential | Issuing Organization | Verification |
-| :--- | :--- | :--- |
-| **Generative AI and AI Agents Professional** | ![AWS]([https://shields.io](https://img.icons8.com/?size=100&id=33039&format=png&color=000000) via ![Coursera](https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/coursera.png) | [Verify](https://www.coursera.org/account/accomplishments/specialization/5BCZ5ML6LEU4) |
-| Certificate | Issuer / Platform | Verification |
+| Certification | Issued By | Verification |
 | :--- | :---: | :---: |
-| **IBM Generative AI & AI Agents Specialist** | ![IBM](https://img.shields.io/badge/IBM-052FAD?style=flat&logo=ibm&logoColor=white) via ![Coursera](https://img.shields.io/badge/Coursera-0056D2?style=flat&logo=coursera&logoColor=white) | [Verify](https://www.coursera.org/account/accomplishments/specialization/YOUR_ID_HERE) |
-
-| **AI Agents Using RAG & LangChain** | ![IBM](https://shields.io) | [Verify](#) |
-| **Data Structures & Algorithms** | **NPTEL (IIT Kanpur)** | [Verify](#) |
+| **Generative AI & AI Agents Specialist** | ![IBM](https://img.shields.io/badge/IBM-052FAD?style=flat&logo=ibm&logoColor=white) | [Verify Credential](https://www.credly.com/badges/4ba52ee7-407b-447f-a593-36258ad6aed4/linked_in_profile) |
+| **Generative AI and AI Agents Professional** | ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazon-aws&logoColor=white) | [Verify Credential](https://www.coursera.org/account/accomplishments/specialization/5BCZ5ML6LEU4) |
+| **Model Context Protocol (MCP)** | ![Anthropic](https://img.shields.io/badge/Anthropic-D97706?style=flat&logo=anthropic&logoColor=white) | [Verify Credential](https://verify.skilljar.com/c/wqo247pb8jan) |
+| **Fundamentals of AI Agents Using RAG & LangChain** | ![IBM](https://img.shields.io/badge/IBM-052FAD?style=flat&logo=ibm&logoColor=white) | [Verify Credential](https://www.coursera.org/account/accomplishments/verify/LXD5OYALZEKO) |
+| **Python for Data Science & Development** | ![IBM](https://img.shields.io/badge/IBM-052FAD?style=flat&logo=ibm&logoColor=white) | [Verify Credential]([https://coursera.org/verify](https://www.coursera.org/account/accomplishments/verify/FNTN84VS32W4?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course)) |
+| **Data Structures & Algorithms Design** | ![IIT Kanpur](https://img.shields.io/badge/NPTEL-IIT_Kanpur-FF9933?style=flat) | [Verify Credential](https://onlinecourses.nptel.ac.in/noc25_cs81/preview) |
+| **Python – Web Development Expert** | ![NACTET](https://img.shields.io/badge/NACTET-Certified-blue?style=flat) | [Verify Credential](https://www.nactetindia.org/search.php) |
 
 
 

@@ -94,6 +94,11 @@
 
 ## 🔨 Experience Breakdown
 
+#### 🤖 AI Engineer Intern | *heu.ai (Jul 2026 — Present)*
+* **Engineering** production agentic workflows, multi-agent systems, and GenAI orchestration pipelines.
+* **Developing** scalable retrieval-augmented generation (RAG) architectures and custom tool execution systems.
+* **Collaborating** with core AI engineering team to deploy robust models for enterprise applications.
+
 #### 👾 Independent Builder | *Personal Projects (May 2026 — Present)*
 * **Built** Career-Pilot — autonomous 4-agent job-hunting system using LangGraph, FastMCP, and Docker.
 * **Building** LegalMind — WhatsApp legal advisory bot using GraphRAG (Neo4j + Qdrant) and Twilio.
